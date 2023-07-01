@@ -1,0 +1,161 @@
+/* === Remove input autofocus webkit === */
+*:focus {outline: none;}
+
+/* === Form Typography === */
+body {font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;}
+.contact_form h2, .contact_form label {font-family:Georgia, Times, "Times New Roman", serif;}
+.form_hint, .required_notification {font-size: 11px;}
+
+.contact_form{
+    border: 0.05em solid #fbf6f6;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+/* === List Styles === */
+.contact_form ul {
+    width:750px;
+    list-style-type:none;
+	list-style-position:outside;
+	margin:0px;
+	padding:0px;
+}
+.contact_form li{
+	padding:12px; 
+	border-bottom:1px solid #eee;
+	position:relative;
+} 
+.contact_form li:first-child, .contact_form li:last-child {
+	border-bottom:1px solid #63d7fa;
+}
+
+/* === Form Header === */
+.contact_form h2 {
+	margin:0;
+	display: inline;
+}
+.required_notification {
+	color:#d45252; 
+	margin:5px 0 0 0; 
+	display:inline;
+	float:right;
+}
+
+/* === Form Elements === */
+.contact_form label {
+	width:150px;
+	margin-top: 3px;
+	display:inline-block;
+	float:left;
+	padding:3px;
+}
+.contact_form select{
+  height:28px; 
+	width:260px; 
+	padding:0 2px;
+  color: grey;
+}
+.contact_form input  {
+	height:20px; 
+	width:220px; 
+	padding:5px 8px;
+}
+.contact_form textarea {padding:8px; width:300px;}
+.contact_form button {margin-left:156px;}
+
+	/* form element visual styles */
+	.contact_form input, .contact_form textarea, .contact_form select { 
+		border:1px solid #83d5fc;
+		box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+		border-radius:2px;
+		padding-right:30px;
+		-moz-transition: padding .25s; 
+		-webkit-transition: padding .25s; 
+		-o-transition: padding .25s;
+		transition: padding .25s;
+	}
+	.contact_form input:focus, .contact_form textarea:focus {
+		background: #fff; 
+		border:1px solid #555; 
+		box-shadow: 0 0 3px #aaa; 
+		padding-right:70px;
+	}
+
+/* === HTML5 validation styles === */	
+.contact_form input:required, .contact_form textarea:required {
+	background: #fff url(images/red_asterisk.png) no-repeat 98% center;
+}
+.contact_form input:required:valid, .contact_form textarea:required:valid {
+	background: #fff url(images/valid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #4392d3;
+	border-color: #6decfd;
+}
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+	background: #fff url(images/invalid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #d45252;
+	border-color: #bca858
+}
+
+/* === Form hints === */
+.form_hint {
+	background: #5bc4ee;
+	border-radius: 3px 3px 3px 3px;
+	color: white;
+	margin-left:8px;
+	padding: 1px 6px;
+	z-index: 999; /* hints stay above all other elements */
+	position: absolute; /* allows proper formatting if hint is two lines */
+	display: none;
+}
+.form_hint::before {
+	content: "\25C0";
+	color:#81d0fd;
+	position: absolute;
+	top:1px;
+	left:-6px;
+}
+.contact_form input:focus + .form_hint {display: inline;}
+.contact_form input:required:valid + .form_hint {background: #50e8fc;}
+.contact_form input:required:valid + .form_hint::before {color:#31baf0;}
+	
+/* === Button Style === */
+button.submit {
+	background-color: #50e8fc;
+	background: -webkit-gradient(linear, left top, left bottom, from(#50e8fc), to(#2fe9e9));
+	background: -webkit-linear-gradient(top, #50e8fc, #2fe9e9);
+	background: -moz-linear-gradient(top, #50e8fc, #2fe9e9);
+	background: -ms-linear-gradient(top, #50e8fc, #2fe9e9);
+	background: -o-linear-gradient(top, #50e8fc, #2fe9e9);
+	background: linear-gradient(top, #50e8fc, #2fe9e9);
+	border: 1px solid #2fe9e9;
+	border-bottom: 1px solid #2fe9e9;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	box-shadow: inset 0 1px 0 0 #50e8fc;
+	-webkit-box-shadow: 0 1px 0 0 #50e8fc inset ;
+	-moz-box-shadow: 0 1px 0 0 #50e8fc inset;
+	-ms-box-shadow: 0 1px 0 0 #50e8fc inset;
+	-o-box-shadow: 0 1px 0 0 #50e8fc inset;
+	color: white;
+	font-weight: bold;
+	padding: 6px 20px;
+	text-align: center;
+	text-shadow: 0 -1px 0 #2fe9e9;
+}
+button.submit:hover {
+	opacity:.85;
+	cursor: pointer; 
+}
+button.submit:active {
+	border: 1px solid #2fe9e9;
+	box-shadow: 0 0 10px 5px #31baf0 inset; 
+	-webkit-box-shadow:0 0 10px 5px #31baf0 inset ;
+	-moz-box-shadow: 0 0 10px 5px #31baf0 inset;
+	-ms-box-shadow: 0 0 10px 5px #31baf0 inset;
+	-o-box-shadow: 0 0 10px 5px #31baf0 inset;
+	
+}

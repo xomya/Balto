@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+	<meta name="HandheldFriendly" content="true" >
+	<meta name="MobileOptimized" content="width">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<title>Balto</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Создайте собственный сайт с чистого листа и привлекайте клиентов!" />
+<style type="text/css">
+							:root {
+								--theme-color-b24button: var(--primary);
+							}
+						</style>
+<style type="text/css">
+				:root {
+					--primary: #34bcf2 !important;
+					--primary-darken-1: hsl(197.05, 88%, 56%);
+					--primary-darken-2: hsl(197.05, 88%, 53%);
+					--primary-darken-3: hsl(197.05, 88%, 48%);
+					--primary-lighten-1: hsl(197.05, 88%, 68%);
+					--primary-opacity-0: rgba(52, 188, 242, 0);
+					--primary-opacity-0_05: rgba(52, 188, 242, 0.05);
+					--primary-opacity-0_1: rgba(52, 188, 242, 0.1);
+					--primary-opacity-0_15: rgba(52, 188, 242, 0.15);
+					--primary-opacity-0_2: rgba(52, 188, 242, 0.2);
+					--primary-opacity-0_25: rgba(52, 188, 242, 0.25);
+					--primary-opacity-0_3: rgba(52, 188, 242, 0.3);
+					--primary-opacity-0_35: rgba(52, 188, 242, 0.35);
+					--primary-opacity-0_4: rgba(52, 188, 242, 0.4);
+					--primary-opacity-0_45: rgba(52, 188, 242, 0.45);
+					--primary-opacity-0_5: rgba(52, 188, 242, 0.5);
+					--primary-opacity-0_55: rgba(52, 188, 242, 0.55);
+					--primary-opacity-0_6: rgba(52, 188, 242, 0.6);
+					--primary-opacity-0_65: rgba(52, 188, 242, 0.65);
+					--primary-opacity-0_7: rgba(52, 188, 242, 0.7);
+					--primary-opacity-0_75: rgba(52, 188, 242, 0.75);
+					--primary-opacity-0_8: rgba(52, 188, 242, 0.8);
+					--primary-opacity-0_85: rgba(52, 188, 242, 0.85);
+					--primary-opacity-0_9: rgba(52, 188, 242, 0.9);
+					--primary-opacity-0_95: rgba(52, 188, 242, 0.95);
+					--theme-color-main: hsl(197.05, 20%, 20%);
+					--theme-color-secondary: hsl(197.05, 20%, 80%);
+					--theme-color-title: hsl(197.05, 20%, 20%);
+					--theme-color-strict-inverse: #ffffff;
+				}
+			</style>
+<style>:root {--theme-color-main: #000000 !important;--theme-color-title: #000000 !important;}</style>
+<script type="text/javascript" data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Windows/i.test(ua)){cl += ' bx-win';}else if (/Macintosh/i.test(ua)){cl += " bx-mac";}else if (/Linux/i.test(ua) && !/Android/i.test(ua)){cl += " bx-linux";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";var ieVersion = -1;if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Firefox/.test(ua)){cl += " bx-firefox";}ht.className = htc ? htc + " " + cl : cl;})(window, document, navigator);</script>
+
+
+<link href="bitrix/js/intranet/intranet-common.min.css@166151605361199.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/ui/design-tokens/dist/ui.design-tokens.min.css@166921294222029.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/intranet/design-tokens/bitrix24/bitrix24-design-tokens.min.css@16655703861466.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css@16620208132320.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/main/popup/dist/main.popup.bundle.min.css@168130229626598.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/main/loader/dist/loader.bundle.min.css@15589648062029.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/ui/entity-selector/dist/entity-selector.bundle.min.css@167776775627354.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/main/sidepanel/css/sidepanel.min.css@16655607828173.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/socialnetwork/entity-selector/dist/sonet-entity-selector.bundle.min.css@1630588976162.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/main/core/css/core_date.min.css@16607515339928.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/landing/css/landing_public.min.css@1567508327250.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/components/bitrix/landing.pub/templates/.default/style.min.css@168052412242634.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/panel/main/popup.min.css@167109653420774.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/panel/catalog/catalog_cond.min.css@15549945847248.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/templates/landing24/assets/vendor/bootstrap/bootstrap.min.css@1677000639160496.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="bitrix/templates/landing24/theme.min.css@1681826512584204.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="bitrix/templates/landing24/assets/css/custom-grid.min.css@156933840138.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="bitrix/templates/landing24/template_styles.min.css@16818265202401.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="card-tov.css" type="text/css" data-template-style="true"  rel="stylesheet" />
+<link href="Footer.css" type="text/css" data-template-style="true"  rel="stylesheet" />
+
+
+<script type="extension/settings" data-extension="ui.entity-selector">{"extensions":["catalog.entity-selector","crm.entity-selector","im.entity-selector","imopenlines.entity-selector","intranet.entity-selector","landing.entity-selector","seo.entity-selector","socialnetwork.entity-selector","tasks.entity-selector","voximplant.entity-selector"]}</script>
+<script type="extension/settings" data-extension="catalog.entity-selector">{"entities":[{"id":"product","options":{"dynamicLoad":true,"dynamicSearch":true,"searchFields":[{"name":"supertitle","type":"string","system":true},{"name":"SEARCH_PROPERTIES","type":"string"},{"name":"PREVIEW_TEXT","type":"string"},{"name":"DETAIL_TEXT","type":"string"},{"name":"PARENT_NAME","type":"string"},{"name":"PARENT_SEARCH_PROPERTIES","type":"string"},{"name":"PARENT_PREVIEW_TEXT","type":"string"},{"name":"PARENT_DETAIL_TEXT","type":"string"}],"itemOptions":{"default":{"avatar":"\/bitrix\/js\/catalog\/entity-selector\/src\/images\/product.svg","captionOptions":{"fitContent":true,"maxWidth":150}}}}},{"id":"product_variation","options":{"dynamicLoad":false,"dynamicSearch":true,"searchFields":[{"name":"supertitle","type":"string","system":true},{"name":"SEARCH_PROPERTIES","type":"string"},{"name":"PREVIEW_TEXT","type":"string"},{"name":"DETAIL_TEXT","type":"string"},{"name":"PARENT_NAME","type":"string"},{"name":"PARENT_SEARCH_PROPERTIES","type":"string"},{"name":"PARENT_PREVIEW_TEXT","type":"string"},{"name":"PARENT_DETAIL_TEXT","type":"string"}],"itemOptions":{"default":{"avatar":"\/bitrix\/js\/catalog\/entity-selector\/src\/images\/product.svg","captionOptions":{"fitContent":true,"maxWidth":150}}}}},{"id":"variation","options":{"dynamicLoad":true,"dynamicSearch":true,"searchFields":[{"name":"supertitle","type":"string","system":true},{"name":"SEARCH_PROPERTIES","type":"string"},{"name":"PREVIEW_TEXT","type":"string"},{"name":"DETAIL_TEXT","type":"string"},{"name":"PARENT_NAME","type":"string"},{"name":"PARENT_SEARCH_PROPERTIES","type":"string"},{"name":"PARENT_PREVIEW_TEXT","type":"string"},{"name":"PARENT_DETAIL_TEXT","type":"string"}],"itemOptions":{"default":{"avatar":"\/bitrix\/js\/catalog\/entity-selector\/src\/images\/product.svg","captionOptions":{"fitContent":true,"maxWidth":150}}}}},{"id":"store","options":{"itemOptions":{"default":{"avatar":"\/bitrix\/js\/catalog\/entity-selector\/src\/images\/store.svg"}}}},{"id":"dynamic","options":{"itemOptions":{"default":{"avatar":"\/bitrix\/js\/catalog\/entity-selector\/src\/images\/dynamic.svg"}}}}]}</script>
+<script type="extension/settings" data-extension="crm.entity-selector">{"entities":[{"id":"country","options":{"dynamicLoad":true,"itemOptions":{"default":{"avatar":"\/bitrix\/js\/crm\/entity-selector\/src\/images\/xx.png"}},"tagOptions":{"default":{"avatar":"\/bitrix\/js\/crm\/entity-selector\/src\/images\/xx.png"}}}},{"id":"timeline_ping","options":{"dynamicLoad":true,"dynamicSearch":false}}]}</script>
+<script type="extension/settings" data-extension="im.entity-selector">{"entities":[{"id":"im-bot","options":{"dynamicLoad":true,"dynamicSearch":true,"itemOptions":{"default":{"supertitle":"\u0427\u0430\u0442-\u0431\u043e\u0442","textColor":"#725acc"},"network":{"textColor":"#0a962f"},"support24":{"textColor":"#0165af"}}}},{"id":"im-chat","options":{"dynamicLoad":true,"dynamicSearch":true,"itemOptions":{"CHANNEL":{"supertitle":"\u041a\u0430\u043d\u0430\u043b"},"ANNOUNCEMENT":{"supertitle":"\u0427\u0430\u0442 \u0430\u043d\u043e\u043d\u0441\u043e\u0432"},"GROUP":{"supertitle":"\u0413\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0439 \u0447\u0430\u0442"},"VIDEOCONF":{"supertitle":"\u0427\u0430\u0442 \u0432\u0438\u0434\u0435\u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u0438"},"CALL":{"supertitle":"\u0427\u0430\u0442 \u0437\u0432\u043e\u043d\u043a\u0430"},"CRM":{"supertitle":"\u0427\u0430\u0442 \u0441\u0434\u0435\u043b\u043a\u0438"},"SONET_GROUP":{"supertitle":"\u0427\u0430\u0442 \u0433\u0440\u0443\u043f\u043f\u044b"},"CALENDAR":{"supertitle":"\u0427\u0430\u0442 \u0432\u0441\u0442\u0440\u0435\u0447\u0438"},"TASKS":{"supertitle":"\u0427\u0430\u0442 \u0437\u0430\u0434\u0430\u0447\u0438"},"SUPPORT24_NOTIFIER":{"supertitle":"\u041f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u043024","textColor":"#0165af"},"SUPPORT24_QUESTION":{"supertitle":"\u0412\u043e\u043f\u0440\u043e\u0441 \u0432 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0443","textColor":"#0165af"},"LINES":{"supertitle":"\u041e\u0442\u043a\u0440\u044b\u0442\u0430\u044f \u043b\u0438\u043d\u0438\u044f","textColor":"#0a962f"},"LIVECHAT":{"supertitle":"\u041e\u0442\u043a\u0440\u044b\u0442\u0430\u044f \u043b\u0438\u043d\u0438\u044f","textColor":"#0a962f"}}}},{"id":"im-chat-user","options":{"dynamicLoad":true,"dynamicSearch":true}},{"id":"im-user","options":{"dynamicLoad":true,"dynamicSearch":true}},{"id":"im-recent","options":{"dynamicLoad":true}},{"id":"imbot-network","options":{"dynamicSearch":true}}]}</script>
+<script type="extension/settings" data-extension="imopenlines.entity-selector">{"entities":[{"id":"imopenlines-crm-form","options":{"dynamicLoad":true,"dynamicSearch":true}}]}</script>
+<script type="extension/settings" data-extension="intranet.entity-selector">{"entities":[{"id":"department","options":{"dynamicLoad":true,"dynamicSearch":true,"itemOptions":{"default":{"avatar":"\/bitrix\/js\/intranet\/entity-selector\/src\/images\/department.svg","supertitle":"\u041e\u0442\u0434\u0435\u043b"}},"tagOptions":{"default":{"textColor":"#5f6670","bgColor":"#e2e3e5","avatar":""}}}}]}</script>
+<script type="extension/settings" data-extension="landing.entity-selector">{"entities":[{"id":"landing","options":{"itemOptions":{"default":{"avatarOptions":{"bgSize":"cover"}},"folder":{"avatar":"\/bitrix\/js\/landing\/entity-selector\/src\/images\/icon-folder.svg"}},"dynamicLoad":true,"dynamicSearch":true}}]}</script>
+<script type="extension/settings" data-extension="socialnetwork.entity-selector">{"entities":[{"id":"user","options":{"dynamicLoad":true,"dynamicSearch":true,"searchFields":[{"name":"position","type":"string"},{"name":"email","type":"email"}],"searchCacheLimits":["^[=_0-9a-z+~\u0027!\\$\u0026*^`|\\#%\\\/?{}-]+(\\.[=_0-9a-z+~\u0027!\\$\u0026*^`|\\#%\\\/?{}-]+)*@"],"badgeOptions":[{"title":"\u0412 \u043e\u0442\u043f\u0443\u0441\u043a\u0435","bgColor":"#b4f4e6","textColor":"#27a68a","conditions":{"isOnVacation":true}},{"title":"\u041f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d","textColor":"#23a2ca","bgColor":"#dcf6fe","conditions":{"invited":true}}],"itemOptions":{"default":{"avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/default-user.svg","link":"\/company\/personal\/user\/#id#\/","linkTitle":"\u043e \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0435"},"extranet":{"textColor":"#ca8600","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/extranet-user.svg","badges":[{"title":"\u042d\u043a\u0441\u0442\u0440\u0430\u043d\u0435\u0442","textColor":"#bb8412","bgColor":"#fff599"}]},"email":{"textColor":"#ca8600","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/email-user.svg","badges":[{"title":"\u0413\u043e\u0441\u0442\u044c","textColor":"#bb8412","bgColor":"#fff599"}]},"inactive":{"badges":[{"title":"\u0423\u0432\u043e\u043b\u0435\u043d","textColor":"#828b95","bgColor":"#eaebec"}]},"integrator":{"badges":[{"title":"\u0418\u043d\u0442\u0435\u0433\u0440\u0430\u0442\u043e\u0440","textColor":"#668d13","bgColor":"#e6f4b9"}]}},"tagOptions":{"default":{"textColor":"#1066bb","bgColor":"#bcedfc","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/default-tag-user.svg"},"extranet":{"textColor":"#a9750f","bgColor":"#ffec91","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/extranet-user.svg"},"email":{"textColor":"#a26b00","bgColor":"#ffec91","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/email-user.svg"},"inactive":{"textColor":"#5f6670","bgColor":"#ecedef"}}}},{"id":"fired-user","options":{"dynamicLoad":true,"dynamicSearch":true,"searchFields":[{"name":"position","type":"string"},{"name":"email","type":"email"}],"searchCacheLimits":["^[=_0-9a-z+~\u0027!\\$\u0026*^`|\\#%\\\/?{}-]+(\\.[=_0-9a-z+~\u0027!\\$\u0026*^`|\\#%\\\/?{}-]+)*@"],"badgeOptions":[{"title":"\u0412 \u043e\u0442\u043f\u0443\u0441\u043a\u0435","bgColor":"#b4f4e6","textColor":"#27a68a","conditions":{"isOnVacation":true}},{"title":"\u041f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d","textColor":"#23a2ca","bgColor":"#dcf6fe","conditions":{"invited":true}}],"itemOptions":{"default":{"avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/default-user.svg","link":"\/company\/personal\/user\/#id#\/","linkTitle":"\u043e \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0435"},"extranet":{"textColor":"#ca8600","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/extranet-user.svg","badges":[{"title":"\u042d\u043a\u0441\u0442\u0440\u0430\u043d\u0435\u0442","textColor":"#bb8412","bgColor":"#fff599"}]},"email":{"textColor":"#ca8600","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/email-user.svg","badges":[{"title":"\u0413\u043e\u0441\u0442\u044c","textColor":"#bb8412","bgColor":"#fff599"}]},"inactive":{"badges":[{"title":"\u0423\u0432\u043e\u043b\u0435\u043d","textColor":"#828b95","bgColor":"#eaebec"}]},"integrator":{"badges":[{"title":"\u0418\u043d\u0442\u0435\u0433\u0440\u0430\u0442\u043e\u0440","textColor":"#668d13","bgColor":"#e6f4b9"}]}},"tagOptions":{"default":{"textColor":"#1066bb","bgColor":"#bcedfc","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/default-tag-user.svg"},"extranet":{"textColor":"#a9750f","bgColor":"#ffec91","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/extranet-user.svg"},"email":{"textColor":"#a26b00","bgColor":"#ffec91","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/email-user.svg"},"inactive":{"textColor":"#5f6670","bgColor":"#ecedef"}}}},{"id":"project","options":{"dynamicLoad":true,"dynamicSearch":true,"itemOptions":{"default":{"avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/project.svg","link":"\/workgroups\/group\/#id#\/card\/","linkTitle":"\u043e \u0433\u0440\u0443\u043f\u043f\u0435","supertitle":"\u0413\u0440\u0443\u043f\u043f\u0430"},"extranet":{"avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/extranet-project.svg","textColor":"#ca8600","badges":[{"title":"\u042d\u043a\u0441\u0442\u0440\u0430\u043d\u0435\u0442","textColor":"#bb8412","bgColor":"#fff599"}]}},"tagOptions":{"default":{"textColor":"#207976","bgColor":"#ade7e4"},"extranet":{"textColor":"#a9750f","bgColor":"#ffec91"}}}},{"id":"meta-user","options":{"dynamicLoad":true,"dynamicSearch":false,"itemOptions":{"all-users":{"avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/meta-user-all.svg"},"other-users":{"avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/meta-user-other.svg"}},"tagOptions":{"all-users":{"textColor":"#5f6670","bgColor":"#dbf087","avatar":""},"other-users":{"textColor":"#5f6670","bgColor":"#dbf087","avatar":""}}}},{"id":"project-tag","options":{"dynamicLoad":true,"dynamicSearch":true,"itemOptions":{"default":{"avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/default-tag.svg"}}}}]}</script>
+<script type="extension/settings" data-extension="tasks.entity-selector">{"entities":[{"id":"task","options":{"dynamicLoad":true,"dynamicSearch":true}},{"id":"task-tag","options":{"dynamicLoad":true,"dynamicSearch":true,"itemOptions":{"default":{"avatar":"\/bitrix\/js\/tasks\/entity-selector\/src\/images\/default-tag.svg","badgesOptions":{"fitContent":true,"maxWidth":100}}}}},{"id":"task-template","options":{"dynamicLoad":true,"dynamicSearch":true}}]}</script>
+<script type="extension/settings" data-extension="voximplant.entity-selector">{"entities":[{"id":"voximplant_group","options":{"dynamicLoad":true,"dynamicSearch":true,"itemOptions":{"default":{"avatar":"\/bitrix\/js\/voximplant\/entity-selector\/src\/images\/telephonygroup.svg","supertitle":"\u0413\u0440\u0443\u043f\u043f\u0430 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0438\u0438"}},"tagOptions":{"default":{"textColor":"#5f6670","bgColor":"#e2e3e5","avatar":""}}}}]}</script>
+<script type="extension/settings" data-extension="main.date">{"formats":{"FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","SHORT_DATE_FORMAT":"d.m.Y","MEDIUM_DATE_FORMAT":"j M Y","LONG_DATE_FORMAT":"j F Y","DAY_MONTH_FORMAT":"j F","DAY_SHORT_MONTH_FORMAT":"j M","SHORT_DAY_OF_WEEK_MONTH_FORMAT":"D, j F","SHORT_DAY_OF_WEEK_SHORT_MONTH_FORMAT":"D, j M","DAY_OF_WEEK_MONTH_FORMAT":"l, j F","FULL_DATE_FORMAT":"l, j F Y","SHORT_TIME_FORMAT":"H:i","LONG_TIME_FORMAT":"H:i:s"}}</script>
+
+
+
+<style>
+					body.landing-page-transition::after {
+						background: #fff;
+					}
+				</style>
+<meta name="robots" content="all" />
+<link rel="preload" href="bitrix/templates/landing24/assets/vendor/icon/icon/font.woff" as="font" crossorigin="anonymous" type="font/woff" crossorigin>
+<link rel="preload" href="bitrix/templates/landing24/assets/vendor/icon/icon/font.woff2" as="font" crossorigin="anonymous" type="font/woff2" crossorigin>
+<style>.icon-earphones-alt:before{content:"\e03c";}.icon-tag:before{content:"\e055";}.icon-location-pin:before{content:"\e096";}.icon-fire:before{content:"\e01c";}</style>
+<link href="https://fastcloudstorage.info/site_external_files/0c2/0c2c19b008686454a71e02433193face/bbcd21c09dfa91352fff9ca4617964fe.css" type="text/css" rel="stylesheet">
+<link href="https://fastcloudstorage.info/site_external_files/1c8/1c8c601ab818118ce132d52420d74bda/ab8a6b4c16cbe0bdebbe4ffe693d14a8.css" type="text/css" rel="stylesheet">
+<link rel="preload" href="bitrix/templates/landing24/assets/vendor/icon/fal/font.woff" as="font" crossorigin="anonymous" type="font/woff" crossorigin>
+<link rel="preload" href="bitrix/templates/landing24/assets/vendor/icon/fal/font.woff2" as="font" crossorigin="anonymous" type="font/woff2" crossorigin>
+<style>.fa-dog:before{content:"\f6d3";}.fa-cat:before{content:"\f6be";}.fa-rabbit-running:before{content:"\f709";}.fa-paw:before{content:"\f1b0";}</style>
+<link rel="preload" href="bitrix/templates/landing24/assets/vendor/icon/far/font.woff" as="font" crossorigin="anonymous" type="font/woff" crossorigin>
+<link rel="preload" href="bitrix/templates/landing24/assets/vendor/icon/far/font.woff2" as="font" crossorigin="anonymous" type="font/woff2" crossorigin>
+<style>.fa-chevron-left:before{content:"\f053";}.fa-chevron-right:before{content:"\f054";}</style>
+<link href="https://fastcloudstorage.info/site_external_files/a87/a87b2653f77058c2c56ddbe62761c4f4/abc521ab66b5f06cd7151bbb929e80e1.css" type="text/css" rel="stylesheet">
+<link href="https://fastcloudstorage.info/site_external_files/71f/71fa672a60bbe20367064d9ee8f4a3c3/2ca2090f209418227a7aaa1a644d8b58.css" type="text/css" rel="stylesheet">
+<style>.icon-location-pin:before{content:"\e096";}.icon-phone:before{content:"\e600";}.icon-speech:before{content:"\e02c";}</style>
+<style>
+					body {
+						--landing-font-family: Open Sans
+					}
+				</style>
+<link rel="stylesheet" href="https://fonts.bitrix24.ru/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900">
+<style>
+				body {
+					font-weight: 400;
+					font-family: Open Sans;
+					-webkit-font-smoothing: antialiased;
+					-moz-osx-font-smoothing: grayscale;
+					-moz-font-feature-settings: "liga", "kern";
+					text-rendering: optimizelegibility;
+				}
+			</style>
+<style>
+				h1, h2, h3, h4, h5, h6 {
+					font-family: Open Sans;
+				}
+			</style>
+<style>
+			html {font-size: 14px;}
+			body {font-size: 1rem;}
+			.g-font-size-default {font-size: 1rem;}
+		</style>
+<style>
+				main.landing-public-mode {
+					line-height: 1.6;
+					font-weight: 400;
+				}
+				
+				.landing-public-mode .h1, .landing-public-mode .h2, .landing-public-mode .h3, .landing-public-mode .h4, 
+				.landing-public-mode .h5, .landing-public-mode .h6, .landing-public-mode .h7,
+				.landing-public-mode h1, .landing-public-mode h2, .landing-public-mode h3, .landing-public-mode h4, 
+				.landing-public-mode h5, .landing-public-mode h6 {
+					font-weight: 600;
+				}
+			</style>
+<meta property="og:title" content="Зоомагазин" /><meta property="og:description" content="Создайте собственный сайт с чистого листа и привлекайте клиентов!" /><meta property="og:image" content="https://cdn-ru.bitrix24.ru/b25115744/landing/914/914836848c8ca8857d29cbf78f973961/2022-05-19-_4_1x.jpg" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="675" /><meta property="og:type" content="website" /><meta property="twitter:title" content="Зоомагазин" /><meta property="twitter:description" content="Создайте собственный сайт с чистого листа и привлекайте клиентов!" /><meta property="twitter:image" content="https://cdn-ru.bitrix24.ru/b25115744/landing/914/914836848c8ca8857d29cbf78f973961/2022-05-19-_4_1x.jpg" /><meta name="twitter:card" content="summary_large_image" /><meta property="twitter:type" content="website" /> <meta property="Bitrix24SiteType" content="page" /> <meta property="og:url" content="https://b24-c0vh1k.bitrix24site.ru/" />
+<link rel="canonical" href="index.html"/><noscript><link rel="stylesheet" href="https://fonts.bitrix24.ru/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900" data-font="g-font-open-sans"></noscript>
+<link rel="preload" href="https://fonts.bitrix24.ru/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900" data-font="g-font-open-sans" onload="this.removeAttribute('onload');this.rel='stylesheet'" as="style">
+<style data-id="g-font-open-sans">.g-font-open-sans { font-family: "Open Sans"; }</style> <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div id="b274488" class="block-wrapper block-0-menu-14-music" style="height: auto;"><header class="landing-block landing-semantic-background-color g-bg-gray-dark-v1 u-header u-header--sticky u-header--relative js-header-in-flow" style="top: 0px;">
+        <div class="u-header__section g-transition-0_3 g-py-16 g-py-10--md" data-header-fix-moment-classes="u-shadow-v27">
+            <nav class="navbar navbar-expand-lg p-0 g-px-15" style="">
+                <div class="container">
+                    <!-- Logo -->
+                    <a href="index.html#" class="navbar-brand landing-block-node-menu-logo-link u-header__logo" target="_self">
+                        <img class="landing-block-node-menu-logo u-header__logo-img u-header__logo-img--main g-max-width-180" src="https://cdn-ru.bitrix24.ru/b25115744/landing/03e/03ed18e03a327b5b0ef9b82eb781f3ab/photo_2023-02-10_19-21-01_1x.jpg" alt="Balto" data-fileid="859" data-fileid2x="861" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;#&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" loading="lazy" srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/94c/94cd7daf8fc093ad20340f74f1d57caf/photo_2023-02-10_19-21-01_2x.jpg 2x" style="position: inherit;">
+                    </a>
+                    <!-- End Logo -->
+    
+                    <!-- Navigation -->
+                    <div class="collapse navbar-collapse align-items-center flex-sm-row" id="navBar274488">
+                        <ul class="landing-block-node-menu-list js-scroll-nav navbar-nav text-uppercase g-font-weight-700 g-font-size-11 g-pt-20 g-pt-0--lg ml-auto"><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg active">
+                                <a href="index.html" class="landing-block-node-menu-list-item-link landing-semantic-menu-h-text nav-link p-0" style="" target="_self">Главная</a>
+                            </li><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+                                <a href="index.html" class="landing-block-node-menu-list-item-link landing-semantic-menu-h-text nav-link p-0" style="" target="_self">О нас</a>
+                            </li><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+                                <a href="index.html" class="landing-block-node-menu-list-item-link landing-semantic-menu-h-text nav-link p-0" style="" target="_self">Каталог</a>
+                            </li><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+                                <a href="index.html" class="landing-block-node-menu-list-item-link landing-semantic-menu-h-text nav-link p-0" style="" target="_self">Наша команда</a>
+                            </li>
+                            <li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+                                <a href="index.html" class="landing-block-node-menu-list-item-link landing-semantic-menu-h-text nav-link p-0" style="" target="_self">Отзывы</a>
+                            </li><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+                                <a href="Korzina.html" class="landing-block-node-menu-list-item-link landing-semantic-menu-h-text nav-link p-0" style="" target="_self">Заказать</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Navigation -->
+    
+                    <!-- Responsive Toggle Button -->
+                    <button class="navbar-toggler btn g-line-height-1 g-brd-none g-pa-0 g-mt-9 ml-auto" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar274488" data-toggle="collapse" data-target="#navBar274488">
+                    <span class="hamburger hamburger--slider">
+                      <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                      </span>
+                    </span>
+                    </button>
+                    <!-- End Responsive Toggle Button -->
+                </div>
+            </nav>
+        </div>
+    </header></div>
+
+	<div class="wrapper">
+        <div class="outer">
+            <div class="content animated fadeInLeft">
+                <span class="bg animated fadeInDown">Хит</span>
+                <h1>Сумка для переноса<br/> </h1>
+                <p>Материал:Флис<br />Размеры: 580 х 270 х 340</p>
+                
+                <div class="button">
+                    <a href="Korzina.html">1245р</a><a class="cart-btn" href="Korzina.html"><i class="cart-icon ion-bag"></i>ADD TO CART</a>
+                </div>
+                
+            </div>
+            <img  class="img_card" src="https://cdn-ru.bitrix24.ru/b25115744/landing/415/4152059bacfa7b2ae7eae4a3b8417d5d/7155fbf14049bb5bab54a85b072f3cc7_1x.jpg" width="300px" class="animated fadeInRight">
+        </div>
+	</div>
+    <div id="b279948" class="block-wrapper block-repo-221 footer_cart"><section class="landing-block js-animation animation-none animated g-pb-auto g-bg" style="--bg: hsla(0, 0%, 0%, 1);">
+        <div class="landing-semantic-text-medium text-center g-color-gray-dark-v3 g-pa-10">
+            <div class="g-width-600 mx-auto">
+                <div class="landing-block-node-text landing-semantic-text-medium js-animation animation-none g-font-size-12 animated g-mb-minus-10 g-color" style="--color: hsla(0, 0%, 100%, 0.8);"><p>© <a href="https://t.me/baltogroom" target="_blank">Balto</a></p></div>
+            </div>
+        </div>
+    </section></div>
+</body>
+</html>

@@ -1,0 +1,188 @@
+* {
+	box-sizing: border-box;
+}
+body {
+    background: url(https://catherineasquithgallery.com/uploads/posts/2023-02/1676591906_catherineasquithgallery-com-p-skachat-fon-zelenaya-trava-241.jpg);
+    background-size: cover;
+}
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Montserrat;
+	width: 100%;
+	height: 86.5vh;
+}
+
+.outer {
+	position: relative;
+	background: #fff;
+	height: 647px;
+    width: 1200px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+.img_card {
+	position: absolute;
+	top: 0px;
+	right: -20px;
+	z-index: 0;
+	animation-delay: 0.5s;
+    width: 560px;
+}
+
+.content {
+	animation-delay: 0.3s;
+	position: absolute;
+	left: 20px;
+	z-index: 3
+	
+}
+
+.wrapper h1 {
+	color: #111;
+}
+
+.wrapper p {
+	width: 280px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #000;
+    margin: 20px 0;
+	
+}
+
+.bg {
+	display: inline-block;
+    color: #fff;
+    background: #2abcf2;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1em;
+    margin-bottom: 130px;
+}
+.button {
+	width: fit-content;
+	height: fit-content;
+	margin-top: 10px;
+	
+	
+	
+}
+
+.button a {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    font-size: 17px;
+    color: #2196F3;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #aaa;
+    font-weight: bold;
+    margin-top: 91px;
+	
+}
+
+.button a:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -10px;
+	width: 0%;
+	background: #111;
+	height: 100%;
+	z-index: -1;
+	transition: width 0.3s ease-in-out;
+	transform: skew(-25deg);
+	transform-origin: right;
+}
+
+.button a:hover:after {
+	width: 150%;
+	left: -10px;
+	transform-origin: left;
+	
+}
+
+.button a:hover {
+	color: #fff;
+	transition: all 0.5s ease;
+}
+
+
+.button a:nth-of-type(1) {
+	border-radius: 50px 0 0 50px;
+	border-right: none;
+}
+
+.button a:nth-of-type(2) {
+	border-radius: 0px 50px 50px 0;
+}
+
+.cart-icon {
+	padding-right: 8px;
+	
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+@media screen and ( max-width : 1250px) and (min-width:1077px) {
+.outer{
+	height: 602px;
+    width: 997px;	
+}	
+.img_card{
+	width: 599px;
+}
+}
+@media screen and (max-width : 1078px) and (min-width:900px) {
+	.outer{
+		height: 602px;
+        width: 824px;
+	}	
+	
+}
+@media screen and (max-width : 899px) and (min-width: 750px) {
+	.outer{
+		height: 602px;
+    width: 630px;
+	}
+	.img_card{
+		width: 405px;
+	}
+	.button{
+		margin-left: 369px;
+	}
+	.content{
+		margin-top: 211px;
+	}
+	.button a{
+		margin-top: 0;
+	}
+}
+@media screen and (max-width:749px)  {
+	.outer{
+    width: 374px;
+	}
+	.button a {
+		margin-top: 0px;
+	}
+	.content{
+		margin-top: 301px;
+	}
+	.img_card{
+		width: 390px;
+	}
+	.wrapper{
+		height: 83.5vh;
+	}
+	.bg{
+		margin-bottom: 0;
+	}
+}

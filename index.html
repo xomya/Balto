@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html xml:lang="ru" lang="ru" class="">
+<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+	<meta name="HandheldFriendly" content="true" >
+	<meta name="MobileOptimized" content="width">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<title>Balto</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<style type="text/css">
+							:root {
+								--theme-color-b24button: var(--primary);
+							}
+						</style>
+<style type="text/css">
+				:root {
+					--primary: #34bcf2 !important;
+					--primary-darken-1: hsl(197.05, 88%, 56%);
+					--primary-darken-2: hsl(197.05, 88%, 53%);
+					--primary-darken-3: hsl(197.05, 88%, 48%);
+					--primary-lighten-1: hsl(197.05, 88%, 68%);
+					--primary-opacity-0: rgba(52, 188, 242, 0);
+					--primary-opacity-0_05: rgba(52, 188, 242, 0.05);
+					--primary-opacity-0_1: rgba(52, 188, 242, 0.1);
+					--primary-opacity-0_15: rgba(52, 188, 242, 0.15);
+					--primary-opacity-0_2: rgba(52, 188, 242, 0.2);
+					--primary-opacity-0_25: rgba(52, 188, 242, 0.25);
+					--primary-opacity-0_3: rgba(52, 188, 242, 0.3);
+					--primary-opacity-0_35: rgba(52, 188, 242, 0.35);
+					--primary-opacity-0_4: rgba(52, 188, 242, 0.4);
+					--primary-opacity-0_45: rgba(52, 188, 242, 0.45);
+					--primary-opacity-0_5: rgba(52, 188, 242, 0.5);
+					--primary-opacity-0_55: rgba(52, 188, 242, 0.55);
+					--primary-opacity-0_6: rgba(52, 188, 242, 0.6);
+					--primary-opacity-0_65: rgba(52, 188, 242, 0.65);
+					--primary-opacity-0_7: rgba(52, 188, 242, 0.7);
+					--primary-opacity-0_75: rgba(52, 188, 242, 0.75);
+					--primary-opacity-0_8: rgba(52, 188, 242, 0.8);
+					--primary-opacity-0_85: rgba(52, 188, 242, 0.85);
+					--primary-opacity-0_9: rgba(52, 188, 242, 0.9);
+					--primary-opacity-0_95: rgba(52, 188, 242, 0.95);
+					--theme-color-main: hsl(197.05, 20%, 20%);
+					--theme-color-secondary: hsl(197.05, 20%, 80%);
+					--theme-color-title: hsl(197.05, 20%, 20%);
+					--theme-color-strict-inverse: #ffffff;
+				}
+			</style>
+<style>:root {--theme-color-main: #000000 !important;--theme-color-title: #000000 !important;}</style>
+<script type="text/javascript" data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Windows/i.test(ua)){cl += ' bx-win';}else if (/Macintosh/i.test(ua)){cl += " bx-mac";}else if (/Linux/i.test(ua) && !/Android/i.test(ua)){cl += " bx-linux";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";var ieVersion = -1;if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Firefox/.test(ua)){cl += " bx-firefox";}ht.className = htc ? htc + " " + cl : cl;})(window, document, navigator);</script>
+
+<script>
+    window.addEventListener('onBitrixLiveChat', function(event){
+        var widget = event.detail.widget;
+        widget.setOption('checkSameDomain', false);
+    });
+</script>
+
+<link href="bitrix/js/intranet/intranet-common.min.css@166151605361199.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/ui/design-tokens/dist/ui.design-tokens.min.css@166921294222029.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/intranet/design-tokens/bitrix24/bitrix24-design-tokens.min.css@16655703861466.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css@16620208132320.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/main/popup/dist/main.popup.bundle.min.css@168130229626598.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/main/loader/dist/loader.bundle.min.css@15589648062029.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/ui/entity-selector/dist/entity-selector.bundle.min.css@167776775627354.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/main/sidepanel/css/sidepanel.min.css@16655607828173.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/socialnetwork/entity-selector/dist/sonet-entity-selector.bundle.min.css@1630588976162.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/main/core/css/core_date.min.css@16607515339928.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/landing/css/landing_public.min.css@1567508327250.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/components/bitrix/landing.pub/templates/.default/style.min.css@168052412242634.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/panel/main/popup.min.css@167109653420774.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/panel/catalog/catalog_cond.min.css@15549945847248.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/templates/landing24/assets/vendor/bootstrap/bootstrap.min.css@1677000639160496.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="bitrix/templates/landing24/theme.min.css@1681826512584204.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="bitrix/templates/landing24/assets/css/custom-grid.min.css@156933840138.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="bitrix/templates/landing24/template_styles.min.css@16818265202401.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+
+
+
+
+<script type="extension/settings" data-extension="ui.entity-selector">{"extensions":["catalog.entity-selector","crm.entity-selector","im.entity-selector","imopenlines.entity-selector","intranet.entity-selector","landing.entity-selector","seo.entity-selector","socialnetwork.entity-selector","tasks.entity-selector","voximplant.entity-selector"]}</script>
+<script type="extension/settings" data-extension="catalog.entity-selector">{"entities":[{"id":"product","options":{"dynamicLoad":true,"dynamicSearch":true,"searchFields":[{"name":"supertitle","type":"string","system":true},{"name":"SEARCH_PROPERTIES","type":"string"},{"name":"PREVIEW_TEXT","type":"string"},{"name":"DETAIL_TEXT","type":"string"},{"name":"PARENT_NAME","type":"string"},{"name":"PARENT_SEARCH_PROPERTIES","type":"string"},{"name":"PARENT_PREVIEW_TEXT","type":"string"},{"name":"PARENT_DETAIL_TEXT","type":"string"}],"itemOptions":{"default":{"avatar":"\/bitrix\/js\/catalog\/entity-selector\/src\/images\/product.svg","captionOptions":{"fitContent":true,"maxWidth":150}}}}},{"id":"product_variation","options":{"dynamicLoad":false,"dynamicSearch":true,"searchFields":[{"name":"supertitle","type":"string","system":true},{"name":"SEARCH_PROPERTIES","type":"string"},{"name":"PREVIEW_TEXT","type":"string"},{"name":"DETAIL_TEXT","type":"string"},{"name":"PARENT_NAME","type":"string"},{"name":"PARENT_SEARCH_PROPERTIES","type":"string"},{"name":"PARENT_PREVIEW_TEXT","type":"string"},{"name":"PARENT_DETAIL_TEXT","type":"string"}],"itemOptions":{"default":{"avatar":"\/bitrix\/js\/catalog\/entity-selector\/src\/images\/product.svg","captionOptions":{"fitContent":true,"maxWidth":150}}}}},{"id":"variation","options":{"dynamicLoad":true,"dynamicSearch":true,"searchFields":[{"name":"supertitle","type":"string","system":true},{"name":"SEARCH_PROPERTIES","type":"string"},{"name":"PREVIEW_TEXT","type":"string"},{"name":"DETAIL_TEXT","type":"string"},{"name":"PARENT_NAME","type":"string"},{"name":"PARENT_SEARCH_PROPERTIES","type":"string"},{"name":"PARENT_PREVIEW_TEXT","type":"string"},{"name":"PARENT_DETAIL_TEXT","type":"string"}],"itemOptions":{"default":{"avatar":"\/bitrix\/js\/catalog\/entity-selector\/src\/images\/product.svg","captionOptions":{"fitContent":true,"maxWidth":150}}}}},{"id":"store","options":{"itemOptions":{"default":{"avatar":"\/bitrix\/js\/catalog\/entity-selector\/src\/images\/store.svg"}}}},{"id":"dynamic","options":{"itemOptions":{"default":{"avatar":"\/bitrix\/js\/catalog\/entity-selector\/src\/images\/dynamic.svg"}}}}]}</script>
+<script type="extension/settings" data-extension="crm.entity-selector">{"entities":[{"id":"country","options":{"dynamicLoad":true,"itemOptions":{"default":{"avatar":"\/bitrix\/js\/crm\/entity-selector\/src\/images\/xx.png"}},"tagOptions":{"default":{"avatar":"\/bitrix\/js\/crm\/entity-selector\/src\/images\/xx.png"}}}},{"id":"timeline_ping","options":{"dynamicLoad":true,"dynamicSearch":false}}]}</script>
+<script type="extension/settings" data-extension="im.entity-selector">{"entities":[{"id":"im-bot","options":{"dynamicLoad":true,"dynamicSearch":true,"itemOptions":{"default":{"supertitle":"\u0427\u0430\u0442-\u0431\u043e\u0442","textColor":"#725acc"},"network":{"textColor":"#0a962f"},"support24":{"textColor":"#0165af"}}}},{"id":"im-chat","options":{"dynamicLoad":true,"dynamicSearch":true,"itemOptions":{"CHANNEL":{"supertitle":"\u041a\u0430\u043d\u0430\u043b"},"ANNOUNCEMENT":{"supertitle":"\u0427\u0430\u0442 \u0430\u043d\u043e\u043d\u0441\u043e\u0432"},"GROUP":{"supertitle":"\u0413\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0439 \u0447\u0430\u0442"},"VIDEOCONF":{"supertitle":"\u0427\u0430\u0442 \u0432\u0438\u0434\u0435\u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u0438"},"CALL":{"supertitle":"\u0427\u0430\u0442 \u0437\u0432\u043e\u043d\u043a\u0430"},"CRM":{"supertitle":"\u0427\u0430\u0442 \u0441\u0434\u0435\u043b\u043a\u0438"},"SONET_GROUP":{"supertitle":"\u0427\u0430\u0442 \u0433\u0440\u0443\u043f\u043f\u044b"},"CALENDAR":{"supertitle":"\u0427\u0430\u0442 \u0432\u0441\u0442\u0440\u0435\u0447\u0438"},"TASKS":{"supertitle":"\u0427\u0430\u0442 \u0437\u0430\u0434\u0430\u0447\u0438"},"SUPPORT24_NOTIFIER":{"supertitle":"\u041f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u043024","textColor":"#0165af"},"SUPPORT24_QUESTION":{"supertitle":"\u0412\u043e\u043f\u0440\u043e\u0441 \u0432 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0443","textColor":"#0165af"},"LINES":{"supertitle":"\u041e\u0442\u043a\u0440\u044b\u0442\u0430\u044f \u043b\u0438\u043d\u0438\u044f","textColor":"#0a962f"},"LIVECHAT":{"supertitle":"\u041e\u0442\u043a\u0440\u044b\u0442\u0430\u044f \u043b\u0438\u043d\u0438\u044f","textColor":"#0a962f"}}}},{"id":"im-chat-user","options":{"dynamicLoad":true,"dynamicSearch":true}},{"id":"im-user","options":{"dynamicLoad":true,"dynamicSearch":true}},{"id":"im-recent","options":{"dynamicLoad":true}},{"id":"imbot-network","options":{"dynamicSearch":true}}]}</script>
+<script type="extension/settings" data-extension="imopenlines.entity-selector">{"entities":[{"id":"imopenlines-crm-form","options":{"dynamicLoad":true,"dynamicSearch":true}}]}</script>
+<script type="extension/settings" data-extension="intranet.entity-selector">{"entities":[{"id":"department","options":{"dynamicLoad":true,"dynamicSearch":true,"itemOptions":{"default":{"avatar":"\/bitrix\/js\/intranet\/entity-selector\/src\/images\/department.svg","supertitle":"\u041e\u0442\u0434\u0435\u043b"}},"tagOptions":{"default":{"textColor":"#5f6670","bgColor":"#e2e3e5","avatar":""}}}}]}</script>
+<script type="extension/settings" data-extension="landing.entity-selector">{"entities":[{"id":"landing","options":{"itemOptions":{"default":{"avatarOptions":{"bgSize":"cover"}},"folder":{"avatar":"\/bitrix\/js\/landing\/entity-selector\/src\/images\/icon-folder.svg"}},"dynamicLoad":true,"dynamicSearch":true}}]}</script>
+<script type="extension/settings" data-extension="socialnetwork.entity-selector">{"entities":[{"id":"user","options":{"dynamicLoad":true,"dynamicSearch":true,"searchFields":[{"name":"position","type":"string"},{"name":"email","type":"email"}],"searchCacheLimits":["^[=_0-9a-z+~\u0027!\\$\u0026*^`|\\#%\\\/?{}-]+(\\.[=_0-9a-z+~\u0027!\\$\u0026*^`|\\#%\\\/?{}-]+)*@"],"badgeOptions":[{"title":"\u0412 \u043e\u0442\u043f\u0443\u0441\u043a\u0435","bgColor":"#b4f4e6","textColor":"#27a68a","conditions":{"isOnVacation":true}},{"title":"\u041f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d","textColor":"#23a2ca","bgColor":"#dcf6fe","conditions":{"invited":true}}],"itemOptions":{"default":{"avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/default-user.svg","link":"\/company\/personal\/user\/#id#\/","linkTitle":"\u043e \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0435"},"extranet":{"textColor":"#ca8600","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/extranet-user.svg","badges":[{"title":"\u042d\u043a\u0441\u0442\u0440\u0430\u043d\u0435\u0442","textColor":"#bb8412","bgColor":"#fff599"}]},"email":{"textColor":"#ca8600","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/email-user.svg","badges":[{"title":"\u0413\u043e\u0441\u0442\u044c","textColor":"#bb8412","bgColor":"#fff599"}]},"inactive":{"badges":[{"title":"\u0423\u0432\u043e\u043b\u0435\u043d","textColor":"#828b95","bgColor":"#eaebec"}]},"integrator":{"badges":[{"title":"\u0418\u043d\u0442\u0435\u0433\u0440\u0430\u0442\u043e\u0440","textColor":"#668d13","bgColor":"#e6f4b9"}]}},"tagOptions":{"default":{"textColor":"#1066bb","bgColor":"#bcedfc","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/default-tag-user.svg"},"extranet":{"textColor":"#a9750f","bgColor":"#ffec91","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/extranet-user.svg"},"email":{"textColor":"#a26b00","bgColor":"#ffec91","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/email-user.svg"},"inactive":{"textColor":"#5f6670","bgColor":"#ecedef"}}}},{"id":"fired-user","options":{"dynamicLoad":true,"dynamicSearch":true,"searchFields":[{"name":"position","type":"string"},{"name":"email","type":"email"}],"searchCacheLimits":["^[=_0-9a-z+~\u0027!\\$\u0026*^`|\\#%\\\/?{}-]+(\\.[=_0-9a-z+~\u0027!\\$\u0026*^`|\\#%\\\/?{}-]+)*@"],"badgeOptions":[{"title":"\u0412 \u043e\u0442\u043f\u0443\u0441\u043a\u0435","bgColor":"#b4f4e6","textColor":"#27a68a","conditions":{"isOnVacation":true}},{"title":"\u041f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d","textColor":"#23a2ca","bgColor":"#dcf6fe","conditions":{"invited":true}}],"itemOptions":{"default":{"avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/default-user.svg","link":"\/company\/personal\/user\/#id#\/","linkTitle":"\u043e \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0435"},"extranet":{"textColor":"#ca8600","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/extranet-user.svg","badges":[{"title":"\u042d\u043a\u0441\u0442\u0440\u0430\u043d\u0435\u0442","textColor":"#bb8412","bgColor":"#fff599"}]},"email":{"textColor":"#ca8600","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/email-user.svg","badges":[{"title":"\u0413\u043e\u0441\u0442\u044c","textColor":"#bb8412","bgColor":"#fff599"}]},"inactive":{"badges":[{"title":"\u0423\u0432\u043e\u043b\u0435\u043d","textColor":"#828b95","bgColor":"#eaebec"}]},"integrator":{"badges":[{"title":"\u0418\u043d\u0442\u0435\u0433\u0440\u0430\u0442\u043e\u0440","textColor":"#668d13","bgColor":"#e6f4b9"}]}},"tagOptions":{"default":{"textColor":"#1066bb","bgColor":"#bcedfc","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/default-tag-user.svg"},"extranet":{"textColor":"#a9750f","bgColor":"#ffec91","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/extranet-user.svg"},"email":{"textColor":"#a26b00","bgColor":"#ffec91","avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/email-user.svg"},"inactive":{"textColor":"#5f6670","bgColor":"#ecedef"}}}},{"id":"project","options":{"dynamicLoad":true,"dynamicSearch":true,"itemOptions":{"default":{"avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/project.svg","link":"\/workgroups\/group\/#id#\/card\/","linkTitle":"\u043e \u0433\u0440\u0443\u043f\u043f\u0435","supertitle":"\u0413\u0440\u0443\u043f\u043f\u0430"},"extranet":{"avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/extranet-project.svg","textColor":"#ca8600","badges":[{"title":"\u042d\u043a\u0441\u0442\u0440\u0430\u043d\u0435\u0442","textColor":"#bb8412","bgColor":"#fff599"}]}},"tagOptions":{"default":{"textColor":"#207976","bgColor":"#ade7e4"},"extranet":{"textColor":"#a9750f","bgColor":"#ffec91"}}}},{"id":"meta-user","options":{"dynamicLoad":true,"dynamicSearch":false,"itemOptions":{"all-users":{"avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/meta-user-all.svg"},"other-users":{"avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/meta-user-other.svg"}},"tagOptions":{"all-users":{"textColor":"#5f6670","bgColor":"#dbf087","avatar":""},"other-users":{"textColor":"#5f6670","bgColor":"#dbf087","avatar":""}}}},{"id":"project-tag","options":{"dynamicLoad":true,"dynamicSearch":true,"itemOptions":{"default":{"avatar":"\/bitrix\/js\/socialnetwork\/entity-selector\/src\/images\/default-tag.svg"}}}}]}</script>
+<script type="extension/settings" data-extension="tasks.entity-selector">{"entities":[{"id":"task","options":{"dynamicLoad":true,"dynamicSearch":true}},{"id":"task-tag","options":{"dynamicLoad":true,"dynamicSearch":true,"itemOptions":{"default":{"avatar":"\/bitrix\/js\/tasks\/entity-selector\/src\/images\/default-tag.svg","badgesOptions":{"fitContent":true,"maxWidth":100}}}}},{"id":"task-template","options":{"dynamicLoad":true,"dynamicSearch":true}}]}</script>
+<script type="extension/settings" data-extension="voximplant.entity-selector">{"entities":[{"id":"voximplant_group","options":{"dynamicLoad":true,"dynamicSearch":true,"itemOptions":{"default":{"avatar":"\/bitrix\/js\/voximplant\/entity-selector\/src\/images\/telephonygroup.svg","supertitle":"\u0413\u0440\u0443\u043f\u043f\u0430 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0438\u0438"}},"tagOptions":{"default":{"textColor":"#5f6670","bgColor":"#e2e3e5","avatar":""}}}}]}</script>
+<script type="extension/settings" data-extension="main.date">{"formats":{"FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","SHORT_DATE_FORMAT":"d.m.Y","MEDIUM_DATE_FORMAT":"j M Y","LONG_DATE_FORMAT":"j F Y","DAY_MONTH_FORMAT":"j F","DAY_SHORT_MONTH_FORMAT":"j M","SHORT_DAY_OF_WEEK_MONTH_FORMAT":"D, j F","SHORT_DAY_OF_WEEK_SHORT_MONTH_FORMAT":"D, j M","DAY_OF_WEEK_MONTH_FORMAT":"l, j F","FULL_DATE_FORMAT":"l, j F Y","SHORT_TIME_FORMAT":"H:i","LONG_TIME_FORMAT":"H:i:s"}}</script>
+
+
+
+<style>
+					body.landing-page-transition::after {
+						background: #fff;
+					}
+				</style>
+<meta name="robots" content="all" />
+<link rel="preload" href="bitrix/templates/landing24/assets/vendor/icon/icon/font.woff" as="font" crossorigin="anonymous" type="font/woff" crossorigin>
+<link rel="preload" href="bitrix/templates/landing24/assets/vendor/icon/icon/font.woff2" as="font" crossorigin="anonymous" type="font/woff2" crossorigin>
+<style>.icon-earphones-alt:before{content:"\e03c";}.icon-tag:before{content:"\e055";}.icon-location-pin:before{content:"\e096";}.icon-fire:before{content:"\e01c";}</style>
+<link href="https://fastcloudstorage.info/site_external_files/0c2/0c2c19b008686454a71e02433193face/bbcd21c09dfa91352fff9ca4617964fe.css" type="text/css" rel="stylesheet">
+<link href="https://fastcloudstorage.info/site_external_files/1c8/1c8c601ab818118ce132d52420d74bda/ab8a6b4c16cbe0bdebbe4ffe693d14a8.css" type="text/css" rel="stylesheet">
+<link rel="preload" href="bitrix/templates/landing24/assets/vendor/icon/fal/font.woff" as="font" crossorigin="anonymous" type="font/woff" crossorigin>
+<link rel="preload" href="bitrix/templates/landing24/assets/vendor/icon/fal/font.woff2" as="font" crossorigin="anonymous" type="font/woff2" crossorigin>
+<style>.fa-dog:before{content:"\f6d3";}.fa-cat:before{content:"\f6be";}.fa-rabbit-running:before{content:"\f709";}.fa-paw:before{content:"\f1b0";}</style>
+<link rel="preload" href="bitrix/templates/landing24/assets/vendor/icon/far/font.woff" as="font" crossorigin="anonymous" type="font/woff" crossorigin>
+<link rel="preload" href="bitrix/templates/landing24/assets/vendor/icon/far/font.woff2" as="font" crossorigin="anonymous" type="font/woff2" crossorigin>
+<style>.fa-chevron-left:before{content:"\f053";}.fa-chevron-right:before{content:"\f054";}</style>
+<link href="https://fastcloudstorage.info/site_external_files/a87/a87b2653f77058c2c56ddbe62761c4f4/abc521ab66b5f06cd7151bbb929e80e1.css" type="text/css" rel="stylesheet">
+<link href="https://fastcloudstorage.info/site_external_files/71f/71fa672a60bbe20367064d9ee8f4a3c3/2ca2090f209418227a7aaa1a644d8b58.css" type="text/css" rel="stylesheet">
+<style>.icon-location-pin:before{content:"\e096";}.icon-phone:before{content:"\e600";}.icon-speech:before{content:"\e02c";}</style>
+<style>
+					body {
+						--landing-font-family: Open Sans
+					}
+				</style>
+<link rel="stylesheet" href="https://fonts.bitrix24.ru/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900">
+<style>
+				body {
+					font-weight: 400;
+					font-family: Open Sans;
+					-webkit-font-smoothing: antialiased;
+					-moz-osx-font-smoothing: grayscale;
+					-moz-font-feature-settings: "liga", "kern";
+					text-rendering: optimizelegibility;
+				}
+			</style>
+<style>
+				h1, h2, h3, h4, h5, h6 {
+					font-family: Open Sans;
+				}
+			</style>
+<style>
+			html {font-size: 14px;}
+			body {font-size: 1rem;}
+			.g-font-size-default {font-size: 1rem;}
+		</style>
+<style>
+				main.landing-public-mode {
+					line-height: 1.6;
+					font-weight: 400;
+				}
+				
+				.landing-public-mode .h1, .landing-public-mode .h2, .landing-public-mode .h3, .landing-public-mode .h4, 
+				.landing-public-mode .h5, .landing-public-mode .h6, .landing-public-mode .h7,
+				.landing-public-mode h1, .landing-public-mode h2, .landing-public-mode h3, .landing-public-mode h4, 
+				.landing-public-mode h5, .landing-public-mode h6 {
+					font-weight: 600;
+				}
+			</style>
+<meta property="og:title" content="Зоомагазин" /><meta property="og:description" content="Создайте собственный сайт с чистого листа и привлекайте клиентов!" /><meta property="og:image" content="https://cdn-ru.bitrix24.ru/b25115744/landing/914/914836848c8ca8857d29cbf78f973961/2022-05-19-_4_1x.jpg" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="675" /><meta property="og:type" content="website" /><meta property="twitter:title" content="Зоомагазин" /><meta property="twitter:description" content="Создайте собственный сайт с чистого листа и привлекайте клиентов!" /><meta property="twitter:image" content="https://cdn-ru.bitrix24.ru/b25115744/landing/914/914836848c8ca8857d29cbf78f973961/2022-05-19-_4_1x.jpg" /><meta name="twitter:card" content="summary_large_image" /><meta property="twitter:type" content="website" /> <meta property="Bitrix24SiteType" content="page" /> <meta property="og:url" content="https://b24-c0vh1k.bitrix24site.ru/" />
+<link rel="canonical" href="index.html"/><noscript><link rel="stylesheet" href="https://fonts.bitrix24.ru/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900" data-font="g-font-open-sans"></noscript>
+<link rel="preload" href="https://fonts.bitrix24.ru/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900" data-font="g-font-open-sans" onload="this.removeAttribute('onload');this.rel='stylesheet'" as="style">
+<style data-id="g-font-open-sans">.g-font-open-sans { font-family: "Open Sans"; }</style> <link rel="icon" type="image/x-icon" href="favicon.ico"></head>
+<body class="landing-b24button-use-style landing-page-transition" >
+<main class="w-100 landing-public-mode" >
+<div id="b274488" class="block-wrapper block-0-menu-14-music"><header class="landing-block landing-semantic-background-color g-bg-gray-dark-v1 u-header u-header--sticky u-header--relative" style="">
+	<div class="u-header__section g-transition-0_3 g-py-16 g-py-10--md" data-header-fix-moment-classes="u-shadow-v27">
+		<nav class="navbar navbar-expand-lg p-0 g-px-15" style="">
+			<div class="container">
+				<!-- Logo -->
+				<a href="index.html#" class="navbar-brand landing-block-node-menu-logo-link u-header__logo" target="_self">
+					<img class="landing-block-node-menu-logo u-header__logo-img u-header__logo-img--main g-max-width-180" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCI+PHJlY3QgaWQ9ImJhY2tncm91bmRyZWN0IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4PSIwIiB5PSIwIiBmaWxsPSIjZGRkIiBmaWxsLW9wYWNpdHk9Ii43IiBzdHJva2U9Im5vbmUiLz48L3N2Zz4=" alt="Balto" data-fileid="859" data-fileid2x="861" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;#&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/03e/03ed18e03a327b5b0ef9b82eb781f3ab/photo_2023-02-10_19-21-01_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/94c/94cd7daf8fc093ad20340f74f1d57caf/photo_2023-02-10_19-21-01_2x.jpg 2x" />
+				</a>
+				<!-- End Logo -->
+
+				<!-- Navigation -->
+				<div class="collapse navbar-collapse align-items-center flex-sm-row" id="navBar274488">
+					<ul class="landing-block-node-menu-list js-scroll-nav navbar-nav text-uppercase g-font-weight-700 g-font-size-11 g-pt-20 g-pt-0--lg ml-auto"><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+							<a href="index.html#b274488" class="landing-block-node-menu-list-item-link landing-semantic-menu-h-text nav-link p-0" style="" target="_self">Главная</a>
+						</li><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+							<a href="index.html#b279712" class="landing-block-node-menu-list-item-link landing-semantic-menu-h-text nav-link p-0" style="" target="_self">О нас</a>
+						</li><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+							<a href="index.html#b278940" class="landing-block-node-menu-list-item-link landing-semantic-menu-h-text nav-link p-0" style="" target="_self">Каталог</a>
+						</li><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+							<a href="index.html#b279656" class="landing-block-node-menu-list-item-link landing-semantic-menu-h-text nav-link p-0" style="" target="_self">Наша команда</a>
+						</li>
+						<li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+							<a href="index.html#b279866" class="landing-block-node-menu-list-item-link landing-semantic-menu-h-text nav-link p-0" style="" target="_self">Отзывы</a>
+						</li><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+							<a href="Korzina.html" class="landing-block-node-menu-list-item-link landing-semantic-menu-h-text nav-link p-0" style="" target="_self">Заказать</a>
+						</li>
+					</ul>
+				</div>
+				<!-- End Navigation -->
+
+				<!-- Responsive Toggle Button -->
+				<button class="navbar-toggler btn g-line-height-1 g-brd-none g-pa-0 g-mt-9 ml-auto" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar274488" data-toggle="collapse" data-target="#navBar274488">
+                <span class="hamburger hamburger--slider">
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+                </span>
+				</button>
+				<!-- End Responsive Toggle Button -->
+			</div>
+		</nav>
+	</div>
+</header></div><div id="b274484" class="block-wrapper block-43-4-cover-with-price-text-button-bgimg"><section class="landing-block l-d-md-none l-d-xs-none" data-slider-autoplay="1" data-slider-autoplay-speed="5000" style="">
+	<div class="js-carousel g-overflow-hidden" data-autoplay="true" data-infinite="true" data-fade="true" data-speed="5000" data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-30"><div class="landing-block-node-card js-slide">
+			<div class="landing-block-node-card-bgimg d-flex align-items-center justify-content-center g-bg-img-hero u-bg-overlay g-min-height-100vh w-100 h-100 g-px-5 g-bg--after g-pl-0 g-pr-170" style="--bg--after: hsla(0, 0%, 0%, 0.5);background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTIwIiBoZWlnaHQ9IjEwODAiPjxyZWN0IGlkPSJiYWNrZ3JvdW5kcmVjdCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgeD0iMCIgeT0iMCIgZmlsbD0iI2RkZCIgZmlsbC1vcGFjaXR5PSIuNyIgc3Ryb2tlPSJub25lIi8+PC9zdmc+);" data-fileid="715" data-fileid2x="717" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-bg="Y" data-bg="url('https://cdn-ru.bitrix24.ru/b25115744/landing/e4b/e4b1551b3096889a648757fac3306245/m-burke-l1UsjV2WrNM-unsplash_1x.jpg')|-webkit-image-set(url('https://cdn-ru.bitrix24.ru/b25115744/landing/e4b/e4b1551b3096889a648757fac3306245/m-burke-l1UsjV2WrNM-unsplash_1x.jpg') 1x, url('https://cdn-ru.bitrix24.ru/b25115744/landing/1ee/1ee778d0db0d6999f095e7f9b496c576/m-burke-l1UsjV2WrNM-unsplash_2x.jpg') 2x)|image-set(url('https://cdn-ru.bitrix24.ru/b25115744/landing/e4b/e4b1551b3096889a648757fac3306245/m-burke-l1UsjV2WrNM-unsplash_1x.jpg') 1x, url('https://cdn-ru.bitrix24.ru/b25115744/landing/1ee/1ee778d0db0d6999f095e7f9b496c576/m-burke-l1UsjV2WrNM-unsplash_2x.jpg') 2x)" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/e4b/e4b1551b3096889a648757fac3306245/m-burke-l1UsjV2WrNM-unsplash_1x.jpg" data-src2x="https://cdn-ru.bitrix24.ru/b25115744/landing/1ee/1ee778d0db0d6999f095e7f9b496c576/m-burke-l1UsjV2WrNM-unsplash_2x.jpg">
+					<div class="landing-block-node-card-container js-animation fadeIn container u-bg-overlay__inner g-mx-0 g-pa-0 g-max-width-800 text-left g-pb-55" style="">
+						<div class="landing-block-node-card-price landing-semantic-text-image-medium u-ribbon-v1 text-uppercase g-pos-rel g-pb-10 g-pt-10 g-mb-10 g-color g-font-weight-auto g-line-height-1 g-pl-15 g-pr-15 g-bg g-font-size-22" style="--color: var(--primary);--bg: hsla(0, 0%, 0%, 1);">Balto</div>
+
+						<h3 class="landing-block-node-card-title landing-semantic-title-image-big text-uppercase g-pos-rel g-line-height-1 g-color-white g-mb-10 g-font-weight-700 g-font-size-90" style="">Магазин<br />зоотоваров</h3>
+
+						<div class="g-pos-rel g-line-height-1_2">
+							<div class="landing-block-node-card-text landing-semantic-text-image-medium g-mb-20 g-color-white-opacity-0_8 g-font-size-14" data-auto-font-scale="" style=""><p>
+									В нашем магазине вы сможете найти все что нужно для вашего питомца!</p></div>
+							<div class="landing-block-node-card-button-container" style="">
+								<a class="landing-block-node-card-button landing-semantic-link-image-medium btn g-btn-type-solid g-btn-size-md text-uppercase g-btn-primary g-rounded-50 g-btn-px-l" href="index.html#b278940" style="" target="_self">Подробнее</a>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div></div>
+
+</section></div><div id="b275266" class="block-wrapper block-43-4-cover-with-price-text-button-bgimg"><section class="landing-block l-d-lg-none" data-slider-autoplay="1" data-slider-autoplay-speed="5000" style="">
+	<div class="js-carousel g-overflow-hidden" data-autoplay="true" data-infinite="true" data-fade="true" data-speed="5000" data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-30"><div class="landing-block-node-card js-slide">
+			<div class="landing-block-node-card-bgimg d-flex align-items-center justify-content-center g-bg-img-hero u-bg-overlay g-min-height-100vh w-100 h-100 g-px-5 g-bg--after g-pl-0 g-pr-auto" style="--bg--after: hsla(0, 0%, 0%, 0.5);background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTIwIiBoZWlnaHQ9IjEwODAiPjxyZWN0IGlkPSJiYWNrZ3JvdW5kcmVjdCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgeD0iMCIgeT0iMCIgZmlsbD0iI2RkZCIgZmlsbC1vcGFjaXR5PSIuNyIgc3Ryb2tlPSJub25lIi8+PC9zdmc+);" data-fileid="719" data-fileid2x="721" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-bg="Y" data-bg="url('https://cdn-ru.bitrix24.ru/b25115744/landing/e4b/e4b1551b3096889a648757fac3306245/m-burke-l1UsjV2WrNM-unsplash_1x.jpg')|-webkit-image-set(url('https://cdn-ru.bitrix24.ru/b25115744/landing/e4b/e4b1551b3096889a648757fac3306245/m-burke-l1UsjV2WrNM-unsplash_1x.jpg') 1x, url('https://cdn-ru.bitrix24.ru/b25115744/landing/1ee/1ee778d0db0d6999f095e7f9b496c576/m-burke-l1UsjV2WrNM-unsplash_2x.jpg') 2x)|image-set(url('https://cdn-ru.bitrix24.ru/b25115744/landing/e4b/e4b1551b3096889a648757fac3306245/m-burke-l1UsjV2WrNM-unsplash_1x.jpg') 1x, url('https://cdn-ru.bitrix24.ru/b25115744/landing/1ee/1ee778d0db0d6999f095e7f9b496c576/m-burke-l1UsjV2WrNM-unsplash_2x.jpg') 2x)" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/e4b/e4b1551b3096889a648757fac3306245/m-burke-l1UsjV2WrNM-unsplash_1x.jpg" data-src2x="https://cdn-ru.bitrix24.ru/b25115744/landing/1ee/1ee778d0db0d6999f095e7f9b496c576/m-burke-l1UsjV2WrNM-unsplash_2x.jpg">
+					<div class="landing-block-node-card-container js-animation fadeIn container u-bg-overlay__inner g-mx-0 g-pa-0 g-max-width-800 text-center g-pb-70" style="">
+						<div class="landing-block-node-card-price landing-semantic-text-image-medium u-ribbon-v1 text-uppercase g-pos-rel g-pb-10 g-pt-10 g-mb-10 g-color g-font-weight-auto g-line-height-1 g-pl-15 g-pr-15 g-bg g-font-size-22" style="--color: var(--primary);--bg: hsla(0, 0%, 0%, 1);">Зоомагазин Balto</div>
+
+						<h3 class="landing-block-node-card-title landing-semantic-title-image-big text-uppercase g-pos-rel g-line-height-1 g-color-white g-mb-10 g-font-weight-700 g-font-size-90" style="">Магазин<br />зоотоваров</h3>
+
+						<div class="g-pos-rel g-line-height-1_2">
+							<div class="landing-block-node-card-text landing-semantic-text-image-medium g-mb-20 g-color-white-opacity-0_8 g-font-size-14 g-pl-15 g-pr-15" data-auto-font-scale="" style=""><p>
+									В нашем магазине вы сможете найти все что нужно для вашего питомца!</p></div>
+							<div class="landing-block-node-card-button-container" style="">
+								<a class="landing-block-node-card-button landing-semantic-link-image-medium btn g-btn-type-solid g-btn-size-md text-uppercase g-btn-primary g-rounded-50 g-btn-px-l" href="index.html#b278940" style="" target="_self">Подробнее</a>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div></div>
+
+</section></div><div id="b279712" class="block-wrapper block-41-2-3-text-blocks-slider-on-color-bg-without-btn-left"><section class="g-bg g-pt-110 g-pb-60 l-d-md-none l-d-xs-none" style="--bg: #ffffff;--bg-url: ;--bg-url-2x: ;--bg-overlay: ;--bg-size: ;--bg-attachment: ;">
+	<div class="container">
+		<section class="js-carousel" data-pagi-classes="u-carousel-indicators-v1--white-inverse g-absolute-centered--x g-bottom-30"><div class="landing-block-node-card js-slide landing-card slick-slide slick-current slick-active" style="">
+				<!-- Article -->
+				<article class="landing-block-node-card-container align-items-center row flex-items-middle g-mb-50" style="">
+					<div class="col-lg-6 g-mb-0">
+						<div class="text-uppercase text-center g-mx-30">
+							<h6 class="landing-block-node-card-subtitle landing-semantic-subtitle-small g-font-weight-700 g-color-white-opacity-0_7 g-mb-15 text-center" style=""> </h6>
+							<h2 class="landing-block-node-card-title landing-semantic-title-medium-bg-before js-animation fadeInLeft h1 g-brd-white text-center g-font-weight-auto u-heading-v2-0 g-font-size-30 g-line-height-1_1 g-color g-mb-20" style="--color: hsla(0, 0%, 0%, 1);--border-color: ;--border-color--hover: ;">ИНТЕРНЕТ-МАГАЗИН<br />ТОВАРОВ ДЛЯ ЖИВОТНЫХ</h2>
+						</div>
+
+						<div class="landing-block-node-card-text landing-semantic-text-medium js-animation fadeIn g-px-70--md text-center g-color g-mb-10 g-font-size-15" style="--color: hsla(0, 0%, 0%, 0.8);"><p>В зоомагазине представлен большой выбор сухих и влажных премиум-кормов для собак, кошек и других животных. Вы также можете выбрать аксессуары, либо приобрести качественные лекарства для своего питомца в ветеринарной аптеке. Доставка кормов и товаров для животных на дом осуществляется быстро и в срок до дверей Вашего дома.</p></div><div class="landing-block-node-containerbuttons g-pointer-events-all g-flex-centered g-pt-10 g-pb-auto">
+	<a href="index.html#b279932" class="landing-block-node-button-6979 btn text-uppercase g-btn-primary g-btn-type-solid g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;" target="_self">Связаться</a>
+	<a href="index.html#b278940" class="landing-block-node-button2-9788 btn text-uppercase g-btn-primary g-btn-type-outline g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;" target="_self">Каталог</a>
+</div><div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pb-auto g-pt-auto">
+	
+</div>
+
+						
+					</div>
+					<div class="col-lg-6">
+						<!-- Article Image -->
+						<img class="landing-block-node-card-photo img-fluid g-width-360 g-width-auto--lg mx-auto" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NDAiIGhlaWdodD0iMzYwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-fileid="723" data-fileid2x="725" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" style="position: relative;user-select: none;cursor: pointer;" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/6bc/6bcad87f81721e2a9d9bd8e024f4dfd0/anelale-najera-4R3pnAB-9ag-unsplash_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/ed3/ed34dbc1f50159d3023d86b42db08fa1/anelale-najera-4R3pnAB-9ag-unsplash_2x.jpg 2x" />
+						<!-- End Article Image -->
+					</div>
+				</article>
+				<!-- End Article -->
+			</div></section>
+	</div>
+</section></div><div id="b279740" class="block-wrapper block-41-2-3-text-blocks-slider-on-color-bg-without-btn-left"><section class="g-bg g-pt-110 g-pb-60 l-d-lg-none" style="--bg: #ffffff;--bg-url: ;--bg-url-2x: ;--bg-overlay: ;--bg-size: ;--bg-attachment: ;">
+	<div class="container">
+		<section class="js-carousel" data-pagi-classes="u-carousel-indicators-v1--white-inverse g-absolute-centered--x g-bottom-30"><div class="landing-block-node-card js-slide landing-card slick-slide slick-current slick-active" style="">
+				<!-- Article -->
+				<article class="landing-block-node-card-container align-items-center row flex-items-middle g-mb-50" style="">
+					<div class="col-lg-6 g-mb-0">
+						<div class="text-uppercase text-center g-mx-30">
+							<h6 class="landing-block-node-card-subtitle landing-semantic-subtitle-small g-font-weight-700 g-color-white-opacity-0_7 g-mb-15 text-center" style=""> </h6>
+							<h2 class="landing-block-node-card-title landing-semantic-title-medium-bg-before js-animation fadeInLeft h1 g-brd-white text-center g-font-weight-auto u-heading-v2-0 g-font-size-30 g-line-height-1_1 g-color g-mb-20" style="--color: hsla(0, 0%, 0%, 1);--border-color: ;--border-color--hover: ;">ИНТЕРНЕТ-МАГАЗИН<br />ТОВАРОВ ДЛЯ ЖИВОТНЫХ</h2>
+						</div>
+
+						<div class="landing-block-node-card-text landing-semantic-text-medium js-animation fadeIn g-px-70--md text-center g-color g-mb-10 g-font-size-15" style="--color: hsla(0, 0%, 0%, 0.8);"><p>В зоомагазине представлен большой выбор сухих и влажных премиум-кормов для собак, кошек и других животных. Вы также можете выбрать аксессуары, либо приобрести качественные лекарства для своего питомца в ветеринарной аптеке. Доставка кормов и товаров для животных на дом осуществляется быстро и в срок до дверей Вашего дома.</p></div><div class="landing-block-node-containerbuttons g-pointer-events-all g-flex-centered g-pt-10 g-pb-35">
+	<a href="index.html#b279932" class="landing-block-node-button-6979 btn text-uppercase g-btn-primary g-btn-type-solid g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;" target="_self">Связаться</a>
+	<a href="index.html#b278940" class="landing-block-node-button2-9788 btn text-uppercase g-btn-primary g-btn-type-outline g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;" target="_self">Каталог</a>
+</div><div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pb-auto g-pt-auto">
+	
+</div>
+
+						
+					</div>
+					<div class="col-lg-6">
+						<!-- Article Image -->
+						<img class="landing-block-node-card-photo img-fluid g-width-360 g-width-auto--lg mx-auto" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NDAiIGhlaWdodD0iMzYwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-fileid="727" data-fileid2x="729" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" style="position: relative;user-select: none;cursor: pointer;" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/6bc/6bcad87f81721e2a9d9bd8e024f4dfd0/anelale-najera-4R3pnAB-9ag-unsplash_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/ed3/ed34dbc1f50159d3023d86b42db08fa1/anelale-najera-4R3pnAB-9ag-unsplash_2x.jpg 2x" />
+						<!-- End Article Image -->
+					</div>
+				</article>
+				<!-- End Article -->
+			</div></section>
+	</div>
+</section></div><div id="b279728" class="block-wrapper block-34-4-two-cols-with-text-and-icons"><section class="landing-block g-bg g-pt-110 g-pb-65" style="--bg: #fafafa;">
+	<div class="container">
+		<!-- Icon Blocks -->
+		<div class="row landing-block-inner" style=""><div class="landing-block-node-card js-animation fadeInUp col-md-6 col-lg-6 g-mb-30 g-px-20" style="">
+				<!-- Icon Blocks -->
+				<div class="media">
+					<div class="d-flex g-mt-25 g-mr-40 g-width-64 justify-content-center">
+						<span class="landing-block-node-card-icon-container g-color-primary d-block g-font-size-48 g-line-height-1" style="">
+							<i class="landing-block-node-card-icon "><img src="https://img.icons8.com/ios/50/22C3E6/service--v1.png"/></i>
+						</span>
+					</div>
+					<div class="media-body align-self-center">
+						<h5 class="landing-block-node-card-title landing-semantic-subtitle-medium text-uppercase g-font-weight-600 g-font-size-16" style="">КОНСУЛЬТАЦИЯ И ОБСЛУЖИВАНИЕ</h5>
+						<div class="landing-block-node-card-text landing-semantic-text-small mb-0 g-font-size-15 g-color" style="--color: hsla(0, 0%, 0%, 0.8);"><p>Круглосуточные и обстоятельные консультации по поводу продукции и услуг, которые помогу вам определится с товаром или кормами для питомцев</p></div>
+					</div>
+				</div>
+				<!-- End Icon Blocks -->
+			</div><div class="landing-block-node-card js-animation fadeInUp col-md-6 col-lg-6 g-mb-30 g-px-20" style="">
+				<!-- Icon Blocks -->
+				<div class="media">
+					<div class="d-flex g-mt-25 g-mr-40 g-width-64 justify-content-center">
+						<span class="landing-block-node-card-icon-container g-color-primary d-block g-font-size-48 g-line-height-1" style="">
+							<i class="landing-block-node-card-icon "><img src="https://img.icons8.com/ios/50/22C3E6/discount--v1.png"/></i>
+						</span>
+					</div>
+					<div class="media-body align-self-center">
+						<h5 class="landing-block-node-card-title landing-semantic-subtitle-medium text-uppercase g-font-weight-600 g-font-size-16" style="">ГИБКАЯ СИСТЕМА СКИДОК</h5>
+						<div class="landing-block-node-card-text landing-semantic-text-small mb-0 g-font-size-15 g-color" style="--color: hsla(0, 0%, 0%, 0.8);"><p>У нас действует очень понятная и гибкая система скидок для наших постоянных клиентов, а также много спецпредложений для заказывающих у нас впервые</p></div>
+					</div>
+				</div>
+				<!-- End Icon Blocks -->
+			</div><div class="landing-block-node-card js-animation fadeInUp col-md-6 col-lg-6 g-mb-30 g-px-20" style="">
+				<!-- Icon Blocks -->
+				<div class="media">
+					<div class="d-flex g-mt-25 g-mr-40 g-width-64 justify-content-center">
+						<span class="landing-block-node-card-icon-container g-color-primary d-block g-font-size-48 g-line-height-1" style="">
+							<i class="landing-block-node-card-icon "><img src="https://img.icons8.com/pastel-glyph/64/22C3E6/market--v2.png" style="
+								width: 40px;
+							"></i>
+						</span>
+					</div>
+					<div class="media-body align-self-center">
+						<h5 class="landing-block-node-card-title landing-semantic-subtitle-medium text-uppercase g-font-weight-600 g-font-size-16" style="">МАГАЗИНЫ В 5 ГОРОДАХ</h5>
+						<div class="landing-block-node-card-text landing-semantic-text-small mb-0 g-font-size-15 g-color" style="--color: hsla(0, 0%, 0%, 0.8);"><p>Мы не самая большая сеть, но очень дружная. Мы желаем здоровья и счастья питомцам наших клиентов и стараемся этому помогать качественной продукцией</p></div>
+					</div>
+				</div>
+				<!-- End Icon Blocks -->
+			</div><div class="landing-block-node-card js-animation fadeInUp col-md-6 col-lg-6 g-mb-30 g-px-20" style="">
+				<!-- Icon Blocks -->
+				<div class="media">
+					<div class="d-flex g-mt-25 g-mr-40 g-width-64 justify-content-center">
+						<span class="landing-block-node-card-icon-container g-color-primary d-block g-font-size-48 g-line-height-1" style="">
+							<i class="landing-block-node-card-icon "><img src="https://img.icons8.com/ios/50/22C3E6/delivery--v1.png"/></i>
+						</span>
+					</div>
+					<div class="media-body align-self-center">
+						<h5 class="landing-block-node-card-title landing-semantic-subtitle-medium text-uppercase g-font-weight-600 g-font-size-16" style="">САМАЯ БЫСТРАЯ ДОСТАВКА</h5>
+						<div class="landing-block-node-card-text landing-semantic-text-small mb-0 g-font-size-15 g-color" style="--color: hsla(0, 0%, 0%, 0.8);"><p>Мы осуществляем экспресс доставку не только по городу, но и за город в день заказа! Мы доставляем товары в заказе упакованные в коробки с нашим логотипом</p></div>
+					</div>
+				</div>
+				<!-- End Icon Blocks -->
+			</div></div>
+		<!-- End Icon Blocks -->
+	</div>
+</section></div><div id="b266468" class="block-wrapper block-repo-215"><section class="g-bg" style=""><div class="counterconttwo" style="">
+			<div class="countertwo" style="background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTIwIiBoZWlnaHQ9IjgwMCI+PHJlY3QgaWQ9ImJhY2tncm91bmRyZWN0IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4PSIwIiB5PSIwIiBmaWxsPSIjZGRkIiBmaWxsLW9wYWNpdHk9Ii43IiBzdHJva2U9Im5vbmUiLz48L3N2Zz4=);" data-fileid="731" data-fileid2x="733" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-bg="Y" data-bg="url('https://cdn-ru.bitrix24.ru/b25115744/landing/0f4/0f4704efdcea5476533aa3e3207800d5/avi-richards-aYHgchNOsGY-unsplash_1x.jpg')|-webkit-image-set(url('https://cdn-ru.bitrix24.ru/b25115744/landing/0f4/0f4704efdcea5476533aa3e3207800d5/avi-richards-aYHgchNOsGY-unsplash_1x.jpg') 1x, url('https://cdn-ru.bitrix24.ru/b25115744/landing/0f4/0f4704efdcea5476533aa3e3207800d5/avi-richards-aYHgchNOsGY-unsplash_1x.jpg') 2x)|image-set(url('https://cdn-ru.bitrix24.ru/b25115744/landing/0f4/0f4704efdcea5476533aa3e3207800d5/avi-richards-aYHgchNOsGY-unsplash_1x.jpg') 1x, url('https://cdn-ru.bitrix24.ru/b25115744/landing/0f4/0f4704efdcea5476533aa3e3207800d5/avi-richards-aYHgchNOsGY-unsplash_1x.jpg') 2x)" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/0f4/0f4704efdcea5476533aa3e3207800d5/avi-richards-aYHgchNOsGY-unsplash_1x.jpg" data-src2x="https://cdn-ru.bitrix24.ru/b25115744/landing/0f4/0f4704efdcea5476533aa3e3207800d5/avi-richards-aYHgchNOsGY-unsplash_1x.jpg">	
+				<div class="counterblocktwo col-12 mx-auto wow fadeIn"><div class="counterblockcounttwo">
+							<div class="counterblockcountnumbertwo g-color-blue g-font-open-sans g-font-size-60" style="">5800</div>
+							<div class="counterblockcounttexttwo g-font-open-sans g-font-size-15" style="">Клиентов</div>
+						</div><div class="counterblockcounttwo">
+							<div class="counterblockcountnumbertwo g-color-blue g-font-open-sans g-font-size-60" style="">150</div>
+							<div class="counterblockcounttexttwo g-font-open-sans g-font-size-15" style="">Товаров</div>
+						</div><div class="counterblockcounttwo">
+							<div class="counterblockcountnumbertwo g-color-blue g-font-open-sans g-font-size-60" style="">12</div>
+							<div class="counterblockcounttexttwo g-font-open-sans g-font-size-15" style="">Услуг</div>
+						</div><div class="counterblockcounttwo">
+							<div class="counterblockcountnumbertwo g-color-blue g-font-open-sans g-font-size-60" style="">36</div>
+							<div class="counterblockcounttexttwo g-font-open-sans g-font-size-15" style="">Сотрудников</div>
+						</div></div>
+			</div>
+		</div>	
+	</section></div><div id="b278940" class="block-wrapper block-08-4-fix-title-and-text"><section class="landing-block js-animation g-pb-10 g-pt-105" style="">
+	<div class="landing-block-node-container container js-animation" style="">
+		<h2 class="landing-block-node-title landing-semantic-title-medium js-animation fadeIn h1 u-heading-v2__title g-mb-20 g-text-break-word g-brd-primary g-line-height-1_1 g-font-weight-600 g-font-size-30 u-heading-v2-0 text-center text-uppercase" style="">Каталог товаров и услуг</h2>
+		<div class="landing-block-node-text landing-semantic-text-medium js-animation animated text-center g-font-size-15 g-color" style="--color: hsla(0, 0%, 0%, 0.8);"><p>У нас вы найдете широкий ассортимент <br />качественных и сертифицированных товаров<br /></p></div>
+	</div>
+</section></div><div id="b278944" class="block-wrapper block-34-3-four-cols-countdown"><section class="landing-block landing-semantic-background-color g-bg g-pt-auto g-pb-0 g-pr-auto g-pl-auto l-d-md-none l-d-xs-none" style="--bg: #ffffff;">
+	<div class="container">
+		<div class="row landing-block-inner justify-content-center" style=""><div class="landing-block-node-card js-animation col-md-6 text-center g-mb-40 g-mb-0--lg landing-card col-lg-1 animation-none" style="">
+					<span class="landing-block-node-card-icon-container m-auto landing-semantic-color-primary u-icon-v1 u-icon-size--lg g-mb-15 g-color" style="--color: var(--primary);">
+						<i class="landing-block-node-card-icon fal "><img src="https://img.icons8.com/pastel-glyph/64/22C3E6/dog--v5.png"/></i>
+					</span>
+				<h3 class="landing-block-node-card-number landing-semantic-subtitle-big mb-0 g-color g-pt-0 g-line-height-0_7 g-mb-auto g-font-weight-600 text-uppercase g-font-size-14" style="--color: hsla(0, 0%, 0%, 1);"><a href="index.html#b278986" target="_self">Собакам</a></h3>
+				<div class="landing-block-node-card-number-title landing-semantic-subtitle-medium text-uppercase g-font-weight-700 g-font-size-11 g-color-white g-mb-20" style=""> </div>
+				<div class="landing-block-node-card-text landing-semantic-text-small g-color-white-opacity-0_6 mb-0 g-font-size-5 g-line-height-0_7 g-mb-minus-20" style=""><p><br /></p></div>
+			</div><div class="landing-block-node-card js-animation col-md-6 text-center g-mb-40 g-mb-0--lg landing-card col-lg-1 animation-none" style="">
+					<span class="landing-block-node-card-icon-container m-auto landing-semantic-color-primary u-icon-v1 u-icon-size--lg g-mb-15 g-color" style="--color: var(--primary);">
+						<i class="landing-block-node-card-icon fal "><img src="https://img.icons8.com/pastel-glyph/64/22C3E6/cat--v3.png"/></i>
+					</span>
+				<h3 class="landing-block-node-card-number landing-semantic-subtitle-big mb-0 g-color g-pt-0 g-line-height-0_7 g-mb-auto g-font-weight-600 text-uppercase g-font-size-14" style="--color: hsla(0, 0%, 0%, 1);"><a href="index.html#b278960" target="_self">Кошкам</a></h3>
+				<div class="landing-block-node-card-number-title landing-semantic-subtitle-medium text-uppercase g-font-weight-700 g-font-size-11 g-color-white g-mb-20" style=""> </div>
+				<div class="landing-block-node-card-text landing-semantic-text-small g-color-white-opacity-0_6 mb-0 g-font-size-5 g-line-height-0_7 g-mb-minus-20" style=""><p><br /></p></div>
+			</div><div class="landing-block-node-card js-animation col-md-6 text-center g-mb-40 g-mb-0--lg landing-card col-lg-1 animation-none" style="">
+					<span class="landing-block-node-card-icon-container m-auto landing-semantic-color-primary u-icon-v1 u-icon-size--lg g-mb-15 g-color" style="--color: var(--primary);">
+						<i class="landing-block-node-card-icon fal "><img src="https://img.icons8.com/ios/50/22C3E6/capybara.png" style="
+							width: 68px;
+						"></i>
+					</span>
+				<h3 class="landing-block-node-card-number landing-semantic-subtitle-big mb-0 g-color g-pt-0 g-line-height-0_7 g-mb-auto g-font-weight-600 text-uppercase g-font-size-14" style="--color: hsla(0, 0%, 0%, 1);"><a href="index.html#b279026" target="_self">Грызунам</a></h3>
+				<div class="landing-block-node-card-number-title landing-semantic-subtitle-medium text-uppercase g-font-weight-700 g-font-size-11 g-color-white g-mb-20" style=""> </div>
+				<div class="landing-block-node-card-text landing-semantic-text-small g-color-white-opacity-0_6 mb-0 g-font-size-5 g-line-height-0_7 g-mb-minus-20" style=""><p><br /></p></div>
+			</div><div class="landing-block-node-card js-animation col-md-6 text-center g-mb-40 g-mb-0--lg landing-card col-lg-1 animation-none" style="">
+					<span class="landing-block-node-card-icon-container m-auto landing-semantic-color-primary u-icon-v1 u-icon-size--lg g-mb-15 g-color" style="--color: var(--primary);">
+						<i class="landing-block-node-card-icon fal "><img src="https://img.icons8.com/wired/64/22C3E6/spa-flower.png" style="
+							width: 70px;
+						"></i>
+					</span>
+				<h3 class="landing-block-node-card-number landing-semantic-subtitle-big mb-0 g-color g-pt-0 g-line-height-0_7 g-mb-auto g-font-weight-600 text-uppercase g-font-size-14" style="--color: hsla(0, 0%, 0%, 1);"><a href="index.html#b279030" target="_self">Другое</a></h3>
+				<div class="landing-block-node-card-number-title landing-semantic-subtitle-medium text-uppercase g-font-weight-700 g-font-size-11 g-color-white g-mb-20" style=""> </div>
+				<div class="landing-block-node-card-text landing-semantic-text-small g-color-white-opacity-0_6 mb-0 g-font-size-5 g-line-height-0_7 g-mb-minus-20" style=""><p><br /></p></div>
+			</div></div>
+	</div>
+</section></div><div id="b278986" class="block-wrapper block-44-4-slider-5-cols-with-prices"><section class="landing-block landing-semantic-background-color g-bg g-pb-auto g-pt-5" style="--bg: #ffffff;--bg-url: ;--bg-url-2x: ;--bg-overlay: ;--bg-size: ;--bg-attachment: ;">
+	<!-- Product Blocks -->
+	<div class="js-carousel g-px-25 row" data-infinite="true" data-slides-show="5" data-arrows-classes="u-arrow-v1 g-absolute-centered--y g-width-45 g-height-45 g-color-white g-bg-primary g-color-primary--hover g-bg-white--hover" data-arrow-left-classes="fa fa-chevron-left g-left-0" data-arrow-right-classes="fa fa-chevron-right g-right-0" data-responsive="[{
+               &quot;breakpoint&quot;: 1200,
+               &quot;settings&quot;: {
+                 &quot;slidesToShow&quot;: 5
+               }
+             }, {
+               &quot;breakpoint&quot;: 992,
+               &quot;settings&quot;: {
+                 &quot;slidesToShow&quot;: 3
+               }
+             }, {
+               &quot;breakpoint&quot;: 768,
+               &quot;settings&quot;: {
+                 &quot;slidesToShow&quot;: 2
+               }
+             }, {
+               &quot;breakpoint&quot;: 576,
+               &quot;settings&quot;: {
+                 &quot;slidesToShow&quot;: 1
+               }
+             }]" data-init-classes-exclude="[{
+				 &quot;selector&quot;: &quot;.landing-block-node-card&quot;,
+				 &quot;class&quot;: &quot;col-12 col-sm-4 col-lg-3&quot;
+			   }, {
+				 &quot;selector&quot;: &quot;.js-carousel&quot;,
+				 &quot;class&quot;: &quot;row&quot;
+			   }]"><div class="landing-block-node-card js-slide g-px-7 col-12 col-sm-4 col-lg-3">
+			<div class="landing-block-node-card-container h-100 g-pos-rel g-text-underline--none--hover g-parent g-color-white g-transition-0_3 g-bg g-bg--hover" href="#" style="--bg: #fafafa;--bg-hover: #fafafa;">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMzYwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="735" data-fileid2x="737" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/7bc/7bc7cc7dddd42eb9b2e4038441bdd562/507ee00788e927187fbd217f6fdf83cf_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/adb/adb0b33388502b5961f17d67d5cfdbc5/507ee00788e927187fbd217f6fdf83cf_2x.jpg 2x" />
+				<div class="g-pa-20">
+					<div class="g-mb-20">
+						<h3 class="landing-block-node-card-title landing-semantic-subtitle-image-small js-animation fadeIn g-mb-5 text-center g-font-weight-600 g-color g-pt-15 g-font-size-17 text-uppercase g-pl-0 g-pr-0" style="--color: hsla(0, 0%, 0%, 1);--border-color: ;--border-color--hover: ;">Переноска</h3>
+						<div class="landing-block-node-card-text landing-semantic-text-image-small js-animation fadeIn text-center g-color g-font-size-15" style="--color: hsla(0, 0%, 0%, 0.8);"><p>Материал: металл, пластик<br />Размеры:490 x 330 x 320<br /></p></div><div class="landing-block-node-containertext g-pointer-events-all">
+		<h2 class="landing-block-node-title-9444 h2 text-center g-font-size-23 g-pl-0 g-pr-0 g-font-weight-600 g-color g-mb-minus-5" style="--color: var(--primary);">1245 руб.</h2>
+		<div class="landing-block-node-text-9463 g-pb-1 text-center g-color g-mb-minus-20 g-font-size-17" style="--color: hsla(0, 0%, 0%, 0.8);"><p><span style="text-decoration-line: line-through;">2830 руб.</span></p></div>
+	</div>
+					</div>
+					<div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pt-10 g-pb-30">
+	<a href="KartaTovara-1.html" class="landing-block-node-button-2495 btn text-uppercase g-btn-primary g-btn-type-solid g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" target="_self" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;">Купить</a>
+</div>
+				</div>
+			</div>
+		</div><div class="landing-block-node-card js-slide g-px-7 col-12 col-sm-4 col-lg-3">
+			<div class="landing-block-node-card-container h-100 g-pos-rel g-text-underline--none--hover g-parent g-color-white g-transition-0_3 g-bg g-bg--hover" href="#" style="--bg: #fafafa;--bg-hover: #fafafa;">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMzYwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="739" data-fileid2x="741" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/415/4152059bacfa7b2ae7eae4a3b8417d5d/7155fbf14049bb5bab54a85b072f3cc7_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/48f/48f734d08c21c86226b9ed0ee558bbb2/7155fbf14049bb5bab54a85b072f3cc7_2x.jpg 2x" />
+				<div class="g-pa-20">
+					<div class="g-mb-20">
+						<h3 class="landing-block-node-card-title landing-semantic-subtitle-image-small js-animation fadeIn g-mb-5 text-center g-font-weight-600 g-color g-pt-15 g-font-size-17 text-uppercase g-pl-0 g-pr-0" style="--color: hsla(0, 0%, 0%, 1);--border-color: ;--border-color--hover: ;">Сумка для переноса</h3>
+						<div class="landing-block-node-card-text landing-semantic-text-image-small js-animation fadeIn text-center g-color g-font-size-15" style="--color: hsla(0, 0%, 0%, 0.8);"><p>Материал:Флис<br />Размеры: 580 х 270 х 340</p></div><div class="landing-block-node-containertext g-pointer-events-all">
+		<h2 class="landing-block-node-title-9444 h2 text-center g-font-size-23 g-pl-0 g-pr-0 g-font-weight-600 g-color g-mb-minus-5" style="--color: var(--primary);">1245 руб.</h2>
+		<div class="landing-block-node-text-9463 g-pb-1 text-center g-color g-mb-minus-20 g-font-size-17" style="--color: hsla(0, 0%, 0%, 0.8);"><p><span style="text-decoration-line: line-through;">2830 руб.</span></p></div>
+	</div>
+					</div>
+					<div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pt-10 g-pb-30">
+	<a href="Kartatovara-2.html" class="landing-block-node-button-2495 btn text-uppercase g-btn-primary g-btn-type-solid g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" target="_self" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;">Купить</a>
+</div>
+				</div>
+			</div>
+		</div><div class="landing-block-node-card js-slide g-px-7 col-12 col-sm-4 col-lg-3">
+			<div class="landing-block-node-card-container h-100 g-pos-rel g-text-underline--none--hover g-parent g-color-white g-transition-0_3 g-bg g-bg--hover" href="#" style="--bg: #fafafa;--bg-hover: #fafafa;">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMzYwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="743" data-fileid2x="745" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/af5/af53c1a72920af4993b72f28fb036bb1/2ba782a36168d6bcc7cc77f4c794b5f5_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/ad3/ad31bc317261e234273e9cc47db1e337/2ba782a36168d6bcc7cc77f4c794b5f5_2x.jpg 2x" />
+				<div class="g-pa-20">
+					<div class="g-mb-20">
+						<h3 class="landing-block-node-card-title landing-semantic-subtitle-image-small js-animation fadeIn g-mb-5 text-center g-font-weight-600 g-color g-pt-15 g-font-size-17 text-uppercase g-pl-0 g-pr-0" style="--color: hsla(0, 0%, 0%, 1);--border-color: ;--border-color--hover: ;">Домик мягкий</h3>
+						<div class="landing-block-node-card-text landing-semantic-text-image-small js-animation fadeIn text-center g-color g-font-size-15" style="--color: hsla(0, 0%, 0%, 0.8);">Материал:Бязь, Хлопок<br /><p>Размеры: 420х370х270</p></div><div class="landing-block-node-containertext g-pointer-events-all">
+		<h2 class="landing-block-node-title-9444 h2 text-center g-font-size-23 g-pl-0 g-pr-0 g-font-weight-600 g-color g-mb-minus-5" style="--color: var(--primary);">1245 руб.</h2>
+		<div class="landing-block-node-text-9463 g-pb-1 text-center g-color g-mb-minus-20 g-font-size-17" style="--color: hsla(0, 0%, 0%, 0.8);"><p><span style="text-decoration-line: line-through;">2830 руб.</span></p></div>
+	</div>
+					</div>
+					<div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pt-10 g-pb-30">
+	<a href="Karta-3.html" class="landing-block-node-button-2495 btn text-uppercase g-btn-primary g-btn-type-solid g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" target="_self" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;">Купить</a>
+</div>
+				</div>
+			</div>
+		</div><div class="landing-block-node-card js-slide g-px-7 col-12 col-sm-4 col-lg-3">
+			<div class="landing-block-node-card-container h-100 g-pos-rel g-text-underline--none--hover g-parent g-color-white g-transition-0_3 g-bg g-bg--hover" href="#" style="--bg: #fafafa;--bg-hover: #fafafa;">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMzYwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="747" data-fileid2x="749" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/821/821cd9b591c12c9d16528bf761440e1e/cad678378da9cd95efcf27162dfee02c_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/049/049dc34c2a780be62be9e171f46fa118/cad678378da9cd95efcf27162dfee02c_2x.jpg 2x" />
+				<div class="g-pa-20">
+					<div class="g-mb-20">
+						<h3 class="landing-block-node-card-title landing-semantic-subtitle-image-small js-animation fadeIn g-mb-5 text-center g-font-weight-600 g-color g-pt-15 g-font-size-17 text-uppercase g-pl-0 g-pr-0" style="--color: hsla(0, 0%, 0%, 1);--border-color: ;--border-color--hover: ;">Туалет лоток</h3>
+						<div class="landing-block-node-card-text landing-semantic-text-image-small js-animation fadeIn text-center g-color g-font-size-15" style="--color: hsla(0, 0%, 0%, 0.8);"><p>Материал:Пластик, Резина<br />Размеры: 460х340х20<br /></p></div><div class="landing-block-node-containertext g-pointer-events-all">
+		<h2 class="landing-block-node-title-9444 h2 text-center g-font-size-23 g-pl-0 g-pr-0 g-font-weight-600 g-color g-mb-minus-5" style="--color: var(--primary);">1245 руб.</h2>
+		<div class="landing-block-node-text-9463 g-pb-1 text-center g-color g-mb-minus-20 g-font-size-17" style="--color: hsla(0, 0%, 0%, 0.8);"><p><span style="text-decoration-line: line-through;">2830 руб.</span></p></div>
+	</div>
+					</div>
+					<div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pt-10 g-pb-30">
+	<a href="Karta-4.html" class="landing-block-node-button-2495 btn text-uppercase g-btn-primary g-btn-type-solid g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" target="_self" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;">Купить</a>
+</div>
+				</div>
+			</div>
+		</div></div>
+	<!-- Product Blocks -->
+</section></div><div id="b278960" class="block-wrapper block-44-4-slider-5-cols-with-prices"><section class="landing-block landing-semantic-background-color g-bg g-pt-15 g-pb-65" style="--bg: #ffffff;--bg-url: ;--bg-url-2x: ;--bg-overlay: ;--bg-size: ;--bg-attachment: ;">
+	<!-- Product Blocks -->
+	<div class="js-carousel g-px-25 row" data-infinite="true" data-slides-show="5" data-arrows-classes="u-arrow-v1 g-absolute-centered--y g-width-45 g-height-45 g-color-white g-bg-primary g-color-primary--hover g-bg-white--hover" data-arrow-left-classes="fa fa-chevron-left g-left-0" data-arrow-right-classes="fa fa-chevron-right g-right-0" data-responsive="[{
+               &quot;breakpoint&quot;: 1200,
+               &quot;settings&quot;: {
+                 &quot;slidesToShow&quot;: 5
+               }
+             }, {
+               &quot;breakpoint&quot;: 992,
+               &quot;settings&quot;: {
+                 &quot;slidesToShow&quot;: 3
+               }
+             }, {
+               &quot;breakpoint&quot;: 768,
+               &quot;settings&quot;: {
+                 &quot;slidesToShow&quot;: 2
+               }
+             }, {
+               &quot;breakpoint&quot;: 576,
+               &quot;settings&quot;: {
+                 &quot;slidesToShow&quot;: 1
+               }
+             }]" data-init-classes-exclude="[{
+				 &quot;selector&quot;: &quot;.landing-block-node-card&quot;,
+				 &quot;class&quot;: &quot;col-12 col-sm-4 col-lg-3&quot;
+			   }, {
+				 &quot;selector&quot;: &quot;.js-carousel&quot;,
+				 &quot;class&quot;: &quot;row&quot;
+			   }]"><div class="landing-block-node-card js-slide g-px-7 col-12 col-sm-4 col-lg-3">
+			<div class="landing-block-node-card-container h-100 g-pos-rel g-text-underline--none--hover g-parent g-color-white g-transition-0_3 g-bg g-bg--hover" href="#" style="--bg: #fafafa;--bg-hover: #fafafa;">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMzYwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="751" data-fileid2x="753" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/760/76026e3fac78b59e63d3b36fc435c2b1/e6851a07fb6dda80b120eb2ae72f5e00_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/b24/b24bda40a293f2c3c60bd48702263c93/e6851a07fb6dda80b120eb2ae72f5e00_2x.jpg 2x" />
+				<div class="g-pa-20">
+					<div class="g-mb-20">
+						<h3 class="landing-block-node-card-title landing-semantic-subtitle-image-small js-animation fadeIn text-uppercase g-mb-5 text-center g-font-weight-600 g-color g-pt-15 g-font-size-17" style="--color: hsla(0, 0%, 0%, 1);--border-color: ;--border-color--hover: ;">Переноска</h3>
+						<div class="landing-block-node-card-text landing-semantic-text-image-small js-animation fadeIn text-center g-color g-font-size-15" style="--color: hsla(0, 0%, 0%, 0.8);"><p>Материал: металл, пластик<br />Размеры: 430 x 290 x 275</p></div><div class="landing-block-node-containertext g-pointer-events-all">
+		<h2 class="landing-block-node-title-9444 h2 text-center g-font-size-23 g-pl-0 g-pr-0 g-font-weight-600 g-color g-mb-minus-5" style="--color: var(--primary);">3450 руб.</h2>
+		<div class="landing-block-node-text-9463 g-pb-1 text-center g-font-size-17 g-color g-mb-minus-20" style="--color: hsla(0, 0%, 0%, 0.8);"><p><span style="text-decoration-line: line-through;">4630 руб.</span></p></div>
+	</div>
+					</div>
+					<div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pt-10 g-pb-30">
+	<a href="tovar-5.html" class="landing-block-node-button-2495 btn text-uppercase g-btn-primary g-btn-type-solid g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" target="_self" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;">Купить</a>
+</div>
+				</div>
+			</div>
+		</div><div class="landing-block-node-card js-slide g-px-7 col-12 col-sm-4 col-lg-3">
+			<div class="landing-block-node-card-container h-100 g-pos-rel g-text-underline--none--hover g-parent g-color-white g-transition-0_3 g-bg g-bg--hover" href="#" style="--bg: #fafafa;--bg-hover: #fafafa;">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMzYwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="755" data-fileid2x="757" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/923/923f7c47d690889828e16493e148183d/0bf866f2c5ba458d2fa9f29738601745_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/6ec/6ec9a73c1c21d2a5f9dbb27162da67df/0bf866f2c5ba458d2fa9f29738601745_2x.jpg 2x" />
+				<div class="g-pa-20">
+					<div class="g-mb-20">
+						<h3 class="landing-block-node-card-title landing-semantic-subtitle-image-small js-animation fadeIn text-uppercase g-mb-5 text-center g-font-weight-600 g-color g-pt-15 g-font-size-17" style="--color: hsla(0, 0%, 0%, 1);--border-color: ;--border-color--hover: ;">Игрушка для котика</h3>
+						<div class="landing-block-node-card-text landing-semantic-text-image-small js-animation fadeIn text-center g-color g-font-size-15" style="--color: hsla(0, 0%, 0%, 0.8);"><p>Материал: ABS пластик<br />Размеры: 344х319х69<br /></p></div><div class="landing-block-node-containertext g-pointer-events-all">
+		<h2 class="landing-block-node-title-9444 h2 text-center g-font-size-23 g-pl-0 g-pr-0 g-font-weight-600 g-color g-mb-minus-5" style="--color: var(--primary);">3450 руб.</h2>
+		<div class="landing-block-node-text-9463 g-pb-1 text-center g-font-size-17 g-color g-mb-minus-20" style="--color: hsla(0, 0%, 0%, 0.8);"><p><span style="text-decoration-line: line-through;">4630 руб.</span></p></div>
+	</div>
+					</div>
+					<div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pt-10 g-pb-30">
+	<a href="Tovar-6.html" class="landing-block-node-button-2495 btn text-uppercase g-btn-primary g-btn-type-solid g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" target="_self" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;">Купить</a>
+</div>
+				</div>
+			</div>
+		</div><div class="landing-block-node-card js-slide g-px-7 col-12 col-sm-4 col-lg-3">
+			<div class="landing-block-node-card-container h-100 g-pos-rel g-text-underline--none--hover g-parent g-color-white g-transition-0_3 g-bg g-bg--hover" href="#" style="--bg: #fafafa;--bg-hover: #fafafa;">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMzYwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="759" data-fileid2x="761" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/8ca/8ca2273a241bd9ee9574efd98afd5a8d/4ecf09c66ca53dacc62dfa237eb70ef8_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/7b4/7b4b4ab4f2ecc71f6af7613c71794756/4ecf09c66ca53dacc62dfa237eb70ef8_2x.jpg 2x" />
+				<div class="g-pa-20">
+					<div class="g-mb-20">
+						<h3 class="landing-block-node-card-title landing-semantic-subtitle-image-small js-animation fadeIn text-uppercase g-mb-5 text-center g-font-weight-600 g-color g-pt-15 g-font-size-17" style="--color: hsla(0, 0%, 0%, 1);--border-color: ;--border-color--hover: ;">Домик разборный</h3>
+						<div class="landing-block-node-card-text landing-semantic-text-image-small js-animation fadeIn text-center g-color g-font-size-15" style="--color: hsla(0, 0%, 0%, 0.8);">Материал: ПВХ, ДВП<br /><p>Размеры: 3750 х 600 х 500</p></div><div class="landing-block-node-containertext g-pointer-events-all">
+		<h2 class="landing-block-node-title-9444 h2 text-center g-font-size-23 g-pl-0 g-pr-0 g-font-weight-600 g-color g-mb-minus-5" style="--color: var(--primary);">3450 руб.</h2>
+		<div class="landing-block-node-text-9463 g-pb-1 text-center g-font-size-17 g-color g-mb-minus-20" style="--color: hsla(0, 0%, 0%, 0.8);"><p><span style="text-decoration-line: line-through;">4630 руб.</span></p></div>
+	</div>
+					</div>
+					<div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pt-10 g-pb-30">
+	<a href="Tovar-7.html" class="landing-block-node-button-2495 btn text-uppercase g-btn-primary g-btn-type-solid g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" target="_self" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;">Купить</a>
+</div>
+				</div>
+			</div>
+		</div><div class="landing-block-node-card js-slide g-px-7 col-12 col-sm-4 col-lg-3">
+			<div class="landing-block-node-card-container h-100 g-pos-rel g-text-underline--none--hover g-parent g-color-white g-transition-0_3 g-bg g-bg--hover" href="#" style="--bg: #fafafa;--bg-hover: #fafafa;">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMzYwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="763" data-fileid2x="765" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/b69/b699a76df2000a9921795fe7ef6a26fe/6c37c3f4d179deb56566918088f3873c_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/e86/e86db48fa4c8d8bcd221c2c07f8ccd2f/6c37c3f4d179deb56566918088f3873c_2x.jpg 2x" />
+				<div class="g-pa-20">
+					<div class="g-mb-20">
+						<h3 class="landing-block-node-card-title landing-semantic-subtitle-image-small js-animation fadeIn text-uppercase g-mb-5 text-center g-font-weight-600 g-color g-pt-15 g-font-size-17" style="--color: hsla(0, 0%, 0%, 1);--border-color: ;--border-color--hover: ;">Домик-когтеточка</h3>
+						<div class="landing-block-node-card-text landing-semantic-text-image-small js-animation fadeIn text-center g-color g-font-size-15" style="--color: hsla(0, 0%, 0%, 0.8);"><p>Материал: ЛДСП, велюр<br />Размеры: 1350x500x500<br /></p></div><div class="landing-block-node-containertext g-pointer-events-all">
+		<h2 class="landing-block-node-title-9444 h2 text-center g-font-size-23 g-pl-0 g-pr-0 g-font-weight-600 g-color g-mb-minus-5" style="--color: var(--primary);">3450 руб.</h2>
+		<div class="landing-block-node-text-9463 g-pb-1 text-center g-font-size-17 g-color g-mb-minus-20" style="--color: hsla(0, 0%, 0%, 0.8);"><p><span style="text-decoration-line: line-through;">4630 руб.</span></p></div>
+	</div>
+					</div>
+					<div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pt-10 g-pb-30">
+	<a href="Tovar-8.html" class="landing-block-node-button-2495 btn text-uppercase g-btn-primary g-btn-type-solid g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" target="_self" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;">Купить</a>
+</div>
+				</div>
+			</div>
+		</div></div>
+	<!-- Product Blocks -->
+</section></div><div id="b279034" class="block-wrapper block-18-two-cols-fix-img-text-button"><section class="landing-block landing-semantic-background-color g-bg-primary g-bg-primary-opacity-0_8--after g-pt-40 g-pb-40 l-d-md-none l-d-xs-none" style="">
+	<div class="container text-center text-lg-left">
+		<div class="row g-flex-centered">
+			<div class="col-lg-3 offset-lg-1">
+				<img class="landing-block-node-img img-fluid g-width-200 g-width-auto--lg g-mb-30 g-mb-0--lg mx-auto" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTAiIGhlaWdodD0iMzQwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" srcset="" data-fileid="767" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/a4f/a4fcb68ae3d492b53dbad68d4505663b/kim-davies-fEK4jvgnApg-unsplash-min_1x.png" loading="lazy" />
+			</div>
+
+			<div class="col-lg-6 u-bg-overlay__inner g-flex-centered">
+				<div class="w-100">
+					<h2 class="landing-block-node-title landing-semantic-subtitle-medium js-animation fadeInDown text-uppercase g-line-height-1_1 h1 g-color-white g-mb-10 g-font-size-30 g-font-weight-600" style="">Игрушки для вашего <br />питомца в подарок!</h2>
+					<div class="landing-block-node-text landing-semantic-text-medium js-animation fadeIn g-line-height-1_2 g-font-size-15 g-color" style="--color: hsla(0, 0%, 100%, 0.8);"><p>Купи любые товары на сумму более 3000 рублей и получи две или даже три игрушки для своего питомца в подарок!</p></div>
+				</div>
+			</div>
+
+			<a class="landing-block-node-button landing-semantic-link-medium-border js-animation fadeInUp btn g-btn-size-md mx-2 g-flex-centered g-flex-right--lg g-btn-px-l g-rounded-50 g-btn-type-solid g-button-color g-color g-color--hover text-uppercase" href="index.html#b279932" style="--button-color-contrast: hsla(0, 0%, 30%, 1);--button-color-hover: hsla(0, 0%, 100%, 1);--button-color-light: hsla(0, 0%, 100%, 1);--button-color: #ffffff;--color: hsla(0, 0%, 0%, 1);--color-hover: var(--primary);" target="_self">Подробнее</a>
+		</div>
+	</div>
+</section></div><div id="b279982" class="block-wrapper block-18-two-cols-fix-img-text-button"><section class="landing-block landing-semantic-background-color g-bg-primary g-bg-primary-opacity-0_8--after l-d-lg-none g-pt-50 g-pb-65" style="">
+	<div class="container text-center text-lg-left">
+		<div class="row g-flex-centered">
+			<div class="col-lg-3 offset-lg-1">
+				<img class="landing-block-node-img img-fluid g-width-200 g-width-auto--lg g-mb-30 g-mb-0--lg mx-auto" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTAiIGhlaWdodD0iMzQwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" srcset="" data-fileid="769" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/a4f/a4fcb68ae3d492b53dbad68d4505663b/kim-davies-fEK4jvgnApg-unsplash-min_1x.png" loading="lazy" />
+			</div>
+
+			<div class="col-lg-6 u-bg-overlay__inner g-flex-centered">
+				<div class="w-100">
+					<h2 class="landing-block-node-title landing-semantic-subtitle-medium js-animation fadeInDown text-uppercase g-line-height-1_1 h1 g-color-white g-mb-10 g-font-size-30 g-font-weight-600" style="">Игрушки для вашего <br />питомца в подарок!</h2>
+					<div class="landing-block-node-text landing-semantic-text-medium js-animation fadeIn g-line-height-1_2 g-font-size-15 g-color g-mb-20" style="--color: hsla(0, 0%, 100%, 0.8);"><p>Купи любые товары на сумму более 3000 рублей и получи две или даже три игрушки для своего питомца в подарок!</p></div>
+				</div>
+			</div>
+
+			<a class="landing-block-node-button landing-semantic-link-medium-border js-animation fadeInUp btn g-btn-size-md mx-2 g-flex-centered g-flex-right--lg g-btn-px-l g-rounded-50 g-btn-type-solid g-button-color g-color g-color--hover text-uppercase" href="index.html#b279932" style="--button-color-contrast: hsla(0, 0%, 30%, 1);--button-color-hover: hsla(0, 0%, 100%, 1);--button-color-light: hsla(0, 0%, 100%, 1);--button-color: #ffffff;--color: hsla(0, 0%, 0%, 1);--color-hover: var(--primary);" target="_self">Подробнее</a>
+		</div>
+	</div>
+</section></div><div id="b279026" class="block-wrapper block-44-4-slider-5-cols-with-prices"><section class="landing-block landing-semantic-background-color g-bg g-pt-60 g-pb-auto" style="--bg: #ffffff;--bg-url: ;--bg-url-2x: ;--bg-overlay: ;--bg-size: ;--bg-attachment: ;">
+	<!-- Product Blocks -->
+	<div class="js-carousel g-px-25 row" data-infinite="true" data-slides-show="5" data-arrows-classes="u-arrow-v1 g-absolute-centered--y g-width-45 g-height-45 g-color-white g-bg-primary g-color-primary--hover g-bg-white--hover" data-arrow-left-classes="fa fa-chevron-left g-left-0" data-arrow-right-classes="fa fa-chevron-right g-right-0" data-responsive="[{
+               &quot;breakpoint&quot;: 1200,
+               &quot;settings&quot;: {
+                 &quot;slidesToShow&quot;: 5
+               }
+             }, {
+               &quot;breakpoint&quot;: 992,
+               &quot;settings&quot;: {
+                 &quot;slidesToShow&quot;: 3
+               }
+             }, {
+               &quot;breakpoint&quot;: 768,
+               &quot;settings&quot;: {
+                 &quot;slidesToShow&quot;: 2
+               }
+             }, {
+               &quot;breakpoint&quot;: 576,
+               &quot;settings&quot;: {
+                 &quot;slidesToShow&quot;: 1
+               }
+             }]" data-init-classes-exclude="[{
+				 &quot;selector&quot;: &quot;.landing-block-node-card&quot;,
+				 &quot;class&quot;: &quot;col-12 col-sm-4 col-lg-3&quot;
+			   }, {
+				 &quot;selector&quot;: &quot;.js-carousel&quot;,
+				 &quot;class&quot;: &quot;row&quot;
+			   }]"><div class="landing-block-node-card js-slide g-px-7 col-12 col-sm-4 col-lg-3">
+			<div class="landing-block-node-card-container h-100 g-pos-rel g-text-underline--none--hover g-parent g-color-white g-transition-0_3 g-bg g-bg--hover" href="#" style="--bg: #fafafa;--bg-hover: #fafafa;">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMzYwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="771" data-fileid2x="773" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/560/560e65c841982320b1f084bbfb278d80/d3a92c0dafe2fdc0ccbf26f988a75a61_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/7e0/7e0dba7d4e3e7d9423df55898e68708b/d3a92c0dafe2fdc0ccbf26f988a75a61_2x.jpg 2x" />
+				<div class="g-pa-20">
+					<div class="g-mb-20">
+						<h3 class="landing-block-node-card-title landing-semantic-subtitle-image-small js-animation fadeIn text-uppercase g-mb-5 text-center g-font-size-20 g-font-weight-600 g-color g-pt-15" style="--color: hsla(0, 0%, 0%, 1);--border-color: ;--border-color--hover: ;">Клетка с колесом</h3>
+						<div class="landing-block-node-card-text landing-semantic-text-image-small js-animation fadeIn text-center g-color g-font-size-15" style="--color: hsla(0, 0%, 0%, 0.8);"><p>Материал: металл, пластик<br />Размеры: 430 x 290 x 275</p></div><div class="landing-block-node-containertext g-pointer-events-all">
+		<h2 class="landing-block-node-title-9444 h2 text-center g-font-size-23 g-pl-0 g-pr-0 g-font-weight-600 g-color g-mb-minus-5" style="--color: var(--primary);">3450 руб.</h2>
+		<div class="landing-block-node-text-9463 g-pb-1 text-center g-font-size-17 g-color g-mb-minus-20" style="--color: hsla(0, 0%, 0%, 0.8);"><p><span style="text-decoration-line: line-through;">4630 руб.</span></p></div>
+	</div>
+					</div>
+					<div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pt-10 g-pb-30">
+	<a href="Tovar-9.html" class="landing-block-node-button-2495 btn text-uppercase g-btn-primary g-btn-type-solid g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" target="_self" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;">Купить</a>
+</div>
+				</div>
+			</div>
+		</div><div class="landing-block-node-card js-slide g-px-7 col-12 col-sm-4 col-lg-3">
+			<div class="landing-block-node-card-container h-100 g-pos-rel g-text-underline--none--hover g-parent g-color-white g-transition-0_3 g-bg g-bg--hover" href="#" style="--bg: #fafafa;--bg-hover: #fafafa;">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMzYwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="775" data-fileid2x="777" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/4e8/4e830bf5ced6859ed2d56479e86468d4/a21cfddf268c3ad3b98869b0bdadadc7_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/17a/17a20c265a8767887c4a1cad939969b2/a21cfddf268c3ad3b98869b0bdadadc7_2x.jpg 2x" />
+				<div class="g-pa-20">
+					<div class="g-mb-20">
+						<h3 class="landing-block-node-card-title landing-semantic-subtitle-image-small js-animation fadeIn text-uppercase g-mb-5 text-center g-font-size-20 g-font-weight-600 g-color g-pt-15" style="--color: hsla(0, 0%, 0%, 1);--border-color: ;--border-color--hover: ;">Клетка с поилкой</h3>
+						<div class="landing-block-node-card-text landing-semantic-text-image-small js-animation fadeIn text-center g-color g-font-size-15" style="--color: hsla(0, 0%, 0%, 0.8);"><p>Материал: металл, пластик<br />Размеры: 344х319х69<br /></p></div><div class="landing-block-node-containertext g-pointer-events-all">
+		<h2 class="landing-block-node-title-9444 h2 text-center g-font-size-23 g-pl-0 g-pr-0 g-font-weight-600 g-color g-mb-minus-5" style="--color: var(--primary);">3450 руб.</h2>
+		<div class="landing-block-node-text-9463 g-pb-1 text-center g-font-size-17 g-color g-mb-minus-20" style="--color: hsla(0, 0%, 0%, 0.8);"><p><span style="text-decoration-line: line-through;">4630 руб.</span></p></div>
+	</div>
+					</div>
+					<div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pt-10 g-pb-30">
+	<a href="Tovar-10.html" class="landing-block-node-button-2495 btn text-uppercase g-btn-primary g-btn-type-solid g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" target="_self" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;">Купить</a>
+</div>
+				</div>
+			</div>
+		</div><div class="landing-block-node-card js-slide g-px-7 col-12 col-sm-4 col-lg-3">
+			<div class="landing-block-node-card-container h-100 g-pos-rel g-text-underline--none--hover g-parent g-color-white g-transition-0_3 g-bg g-bg--hover" href="#" style="--bg: #fafafa;--bg-hover: #fafafa;">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMzYwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="779" data-fileid2x="781" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/16e/16ec5da5aa4c69afc8ce03da79d5f8aa/596456a1b17a872785d12bcdd60b81b8_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/12a/12af578772814f78ccb5dd063a35f982/596456a1b17a872785d12bcdd60b81b8_2x.jpg 2x" />
+				<div class="g-pa-20">
+					<div class="g-mb-20">
+						<h3 class="landing-block-node-card-title landing-semantic-subtitle-image-small js-animation fadeIn text-uppercase g-mb-5 text-center g-font-size-20 g-font-weight-600 g-color g-pt-15" style="--color: hsla(0, 0%, 0%, 1);--border-color: ;--border-color--hover: ;">Домик-лабиринт</h3>
+						<div class="landing-block-node-card-text landing-semantic-text-image-small js-animation fadeIn text-center g-color g-font-size-15" style="--color: hsla(0, 0%, 0%, 0.8);">Материал: пластик, металл<br /><p>Размеры: 750 х 600 х 500</p></div><div class="landing-block-node-containertext g-pointer-events-all">
+		<h2 class="landing-block-node-title-9444 h2 text-center g-font-size-23 g-pl-0 g-pr-0 g-font-weight-600 g-color g-mb-minus-5" style="--color: var(--primary);">3450 руб.</h2>
+		<div class="landing-block-node-text-9463 g-pb-1 text-center g-font-size-17 g-color g-mb-minus-20" style="--color: hsla(0, 0%, 0%, 0.8);"><p><span style="text-decoration-line: line-through;">4630 руб.</span></p></div>
+	</div>
+					</div>
+					<div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pt-10 g-pb-30">
+	<a href="Tovar-11.html" class="landing-block-node-button-2495 btn text-uppercase g-btn-primary g-btn-type-solid g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" target="_self" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;">Купить</a>
+</div>
+				</div>
+			</div>
+		</div><div class="landing-block-node-card js-slide g-px-7 col-12 col-sm-4 col-lg-3">
+			<div class="landing-block-node-card-container h-100 g-pos-rel g-text-underline--none--hover g-parent g-color-white g-transition-0_3 g-bg g-bg--hover" href="#" style="--bg: #fafafa;--bg-hover: #fafafa;">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMzYwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="783" data-fileid2x="785" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/560/560e65c841982320b1f084bbfb278d80/d3a92c0dafe2fdc0ccbf26f988a75a61_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/7e0/7e0dba7d4e3e7d9423df55898e68708b/d3a92c0dafe2fdc0ccbf26f988a75a61_2x.jpg 2x" />
+				<div class="g-pa-20">
+					<div class="g-mb-20">
+						<h3 class="landing-block-node-card-title landing-semantic-subtitle-image-small js-animation fadeIn text-uppercase g-mb-5 text-center g-font-size-20 g-font-weight-600 g-color g-pt-15" style="--color: hsla(0, 0%, 0%, 1);--border-color: ;--border-color--hover: ;">Клетка с поилкой</h3>
+						<div class="landing-block-node-card-text landing-semantic-text-image-small js-animation fadeIn text-center g-color g-font-size-15" style="--color: hsla(0, 0%, 0%, 0.8);"><p>Материал: металл, пластик<br />Размеры: 650x500x500<br /></p></div><div class="landing-block-node-containertext g-pointer-events-all">
+		<h2 class="landing-block-node-title-9444 h2 text-center g-font-size-23 g-pl-0 g-pr-0 g-font-weight-600 g-color g-mb-minus-5" style="--color: var(--primary);">3450 руб.</h2>
+		<div class="landing-block-node-text-9463 g-pb-1 text-center g-font-size-17 g-color g-mb-minus-20" style="--color: hsla(0, 0%, 0%, 0.8);"><p><span style="text-decoration-line: line-through;">4630 руб.</span></p></div>
+	</div>
+					</div>
+					<div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pt-10 g-pb-30">
+	<a href="Tovar-12.html" class="landing-block-node-button-2495 btn text-uppercase g-btn-primary g-btn-type-solid g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" target="_self" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;">Купить</a>
+</div>
+				</div>
+			</div>
+		</div></div>
+	<!-- Product Blocks -->
+</section></div><div id="b279030" class="block-wrapper block-44-4-slider-5-cols-with-prices"><section class="landing-block landing-semantic-background-color g-bg g-pt-15 g-pb-110" style="--bg: #ffffff;--bg-url: ;--bg-url-2x: ;--bg-overlay: ;--bg-size: ;--bg-attachment: ;">
+	<!-- Product Blocks -->
+	<div class="js-carousel g-px-25 row" data-infinite="true" data-slides-show="5" data-arrows-classes="u-arrow-v1 g-absolute-centered--y g-width-45 g-height-45 g-color-white g-bg-primary g-color-primary--hover g-bg-white--hover" data-arrow-left-classes="fa fa-chevron-left g-left-0" data-arrow-right-classes="fa fa-chevron-right g-right-0" data-responsive="[{
+               &quot;breakpoint&quot;: 1200,
+               &quot;settings&quot;: {
+                 &quot;slidesToShow&quot;: 5
+               }
+             }, {
+               &quot;breakpoint&quot;: 992,
+               &quot;settings&quot;: {
+                 &quot;slidesToShow&quot;: 3
+               }
+             }, {
+               &quot;breakpoint&quot;: 768,
+               &quot;settings&quot;: {
+                 &quot;slidesToShow&quot;: 2
+               }
+             }, {
+               &quot;breakpoint&quot;: 576,
+               &quot;settings&quot;: {
+                 &quot;slidesToShow&quot;: 1
+               }
+             }]" data-init-classes-exclude="[{
+				 &quot;selector&quot;: &quot;.landing-block-node-card&quot;,
+				 &quot;class&quot;: &quot;col-12 col-sm-4 col-lg-3&quot;0
+			   }, {
+				 &quot;selector&quot;: &quot;.js-carousel&quot;,
+				 &quot;class&quot;: &quot;row&quot;
+			   }]"><div class="landing-block-node-card js-slide g-px-7 col-12 col-sm-4 col-lg-3">
+			<div class="landing-block-node-card-container h-100 g-pos-rel g-text-underline--none--hover g-parent g-color-white g-transition-0_3 g-bg g-bg--hover" href="#" style="--bg: #fafafa;--bg-hover: #fafafa;">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMzYwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="787" data-fileid2x="789" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/bc3/bc32c590a4d749f7c0206b3534d2ba0a/9256d6f8f6d981018f2ab3941fbfa8d3_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/c73/c73b7e0c79b777343d2acd763eadcd02/9256d6f8f6d981018f2ab3941fbfa8d3_2x.jpg 2x" />
+				<div class="g-pa-20">
+					<div class="g-mb-20">
+						<h3 class="landing-block-node-card-title landing-semantic-subtitle-image-small js-animation fadeIn text-uppercase g-mb-5 text-center g-font-size-20 g-font-weight-600 g-color g-pt-15" style="--color: hsla(0, 0%, 0%, 1);--border-color: ;--border-color--hover: ;">Медосмотр</h3>
+						<div class="landing-block-node-card-text landing-semantic-text-image-small js-animation fadeIn text-center g-color g-mb-auto g-font-size-13" style="--color: hsla(0, 0%, 0%, 1);"><p>Организуем поход на медосмотр вашим питомцем пока вы заняты</p></div><div class="landing-block-node-containertext g-pointer-events-all">
+		<h2 class="landing-block-node-title-9444 h2 text-center g-font-size-23 g-pl-0 g-pr-0 g-font-weight-600 g-color g-mb-minus-5" style="--color: var(--primary);">3450 руб.</h2>
+		<div class="landing-block-node-text-9463 g-pb-1 text-center g-font-size-17 g-color g-mb-minus-20" style="--color: hsla(0, 0%, 0%, 1);"><p><span style="text-decoration-line: line-through;">4630 руб.</span></p></div>
+	</div>
+					</div>
+					<div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pt-10 g-pb-30">
+	<a href="tovar-13.html" class="landing-block-node-button-2495 btn text-uppercase g-btn-primary g-btn-type-solid g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" target="_self" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;">Записаться</a>
+</div>
+				</div>
+			</div>
+		</div><div class="landing-block-node-card js-slide g-px-7 col-12 col-sm-4 col-lg-3">
+			<div class="landing-block-node-card-container h-100 g-pos-rel g-text-underline--none--hover g-parent g-color-white g-transition-0_3 g-bg g-bg--hover" href="#" style="--bg: #fafafa;--bg-hover: #fafafa;">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMzYwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="791" data-fileid2x="793" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/7fe/7fe4d48060ed027a5cc052302f4d757a/3aa9198965e5a57e48adc65184b0742a_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/d31/d3127e3cad94d6b137fb46dfd8074538/3aa9198965e5a57e48adc65184b0742a_2x.jpg 2x" />
+				<div class="g-pa-20">
+					<div class="g-mb-20">
+						<h3 class="landing-block-node-card-title landing-semantic-subtitle-image-small js-animation fadeIn text-uppercase g-mb-5 text-center g-font-size-20 g-font-weight-600 g-color g-pt-15" style="--color: hsla(0, 0%, 0%, 1);--border-color: ;--border-color--hover: ;">ЧИСТКА ЗУБОК</h3>
+						<div class="landing-block-node-card-text landing-semantic-text-image-small js-animation fadeIn text-center g-color g-mb-auto g-font-size-13" style="--color: hsla(0, 0%, 0%, 1);"><p>Проводим чистку зубов ваших питомцев, если вы сами не справляетесь<br /></p></div><div class="landing-block-node-containertext g-pointer-events-all">
+		<h2 class="landing-block-node-title-9444 h2 text-center g-font-size-23 g-pl-0 g-pr-0 g-font-weight-600 g-color g-mb-minus-5" style="--color: var(--primary);">3450 руб.</h2>
+		<div class="landing-block-node-text-9463 g-pb-1 text-center g-font-size-17 g-color g-mb-minus-20" style="--color: hsla(0, 0%, 0%, 1);"><p><span style="text-decoration-line: line-through;">4630 руб.</span></p></div>
+	</div>
+					</div>
+					<div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pt-10 g-pb-30">
+	<a href="Tovar-14.html" class="landing-block-node-button-2495 btn text-uppercase g-btn-primary g-btn-type-solid g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" target="_self" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;">Записаться</a>
+</div>
+				</div>
+			</div>
+		</div><div class="landing-block-node-card js-slide g-px-7 col-12 col-sm-4 col-lg-3">
+			<div class="landing-block-node-card-container h-100 g-pos-rel g-text-underline--none--hover g-parent g-color-white g-transition-0_3 g-bg g-bg--hover" href="#" style="--bg: #fafafa;--bg-hover: #fafafa;">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMzYwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="795" data-fileid2x="797" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/386/3866501841812c3cab0ddeae5956c1dd/df05292b0ea5e4797fcf878f207dfd7d_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/b56/b56d9ea2f89136af6cfd45e3d0458f72/df05292b0ea5e4797fcf878f207dfd7d_2x.jpg 2x" />
+				<div class="g-pa-20">
+					<div class="g-mb-20">
+						<h3 class="landing-block-node-card-title landing-semantic-subtitle-image-small js-animation fadeIn text-uppercase g-mb-5 text-center g-font-size-20 g-font-weight-600 g-color g-pt-15" style="--color: hsla(0, 0%, 0%, 1);--border-color: ;--border-color--hover: ;">СПА-УХОД</h3>
+						<div class="landing-block-node-card-text landing-semantic-text-image-small js-animation fadeIn text-center g-color g-mb-auto g-font-size-13" style="--color: hsla(0, 0%, 0%, 1);"><p>Полный спектр СПА-ухода для ваших питомцев, чтобы отдохнули вы и они<br /></p></div><div class="landing-block-node-containertext g-pointer-events-all">
+		<h2 class="landing-block-node-title-9444 h2 text-center g-font-size-23 g-pl-0 g-pr-0 g-font-weight-600 g-color g-mb-minus-5" style="--color: var(--primary);">3450 руб.</h2>
+		<div class="landing-block-node-text-9463 g-pb-1 text-center g-font-size-17 g-color g-mb-minus-20" style="--color: hsla(0, 0%, 0%, 1);"><p><span style="text-decoration-line: line-through;">4630 руб.</span></p></div>
+	</div>
+					</div>
+					<div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pt-10 g-pb-30">
+	<a href="Tovar-15.html" class="landing-block-node-button-2495 btn text-uppercase g-btn-primary g-btn-type-solid g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" target="_self" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;">Записаться</a>
+</div>
+				</div>
+			</div>
+		</div><div class="landing-block-node-card js-slide g-px-7 col-12 col-sm-4 col-lg-3">
+			<div class="landing-block-node-card-container h-100 g-pos-rel g-text-underline--none--hover g-parent g-color-white g-transition-0_3 g-bg g-bg--hover" href="#" style="--bg: #fafafa;--bg-hover: #fafafa;">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMzYwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="799" data-fileid2x="801" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/2d3/2d32a3633f4f23315c477f4566227f5d/9981cb76743c8dd01c1ec8fdd8307297_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/ca5/ca5ca811bdb2fb206c13dd752bcab771/9981cb76743c8dd01c1ec8fdd8307297_2x.jpg 2x" />
+				<div class="g-pa-20">
+					<div class="g-mb-20">
+						<h3 class="landing-block-node-card-title landing-semantic-subtitle-image-small js-animation fadeIn text-uppercase g-mb-5 text-center g-font-size-20 g-font-weight-600 g-color g-pt-15" style="--color: hsla(0, 0%, 0%, 1);--border-color: ;--border-color--hover: ;">ГРУМИНГ</h3>
+						<div class="landing-block-node-card-text landing-semantic-text-image-small js-animation fadeIn text-center g-color g-mb-auto g-font-size-13" style="--color: hsla(0, 0%, 0%, 1);"><p>Подстрижем и сделаем шикарную укладку вашему питомцу<br /></p></div><div class="landing-block-node-containertext g-pointer-events-all">
+		<h2 class="landing-block-node-title-9444 h2 text-center g-font-size-23 g-pl-0 g-pr-0 g-font-weight-600 g-color g-mb-minus-5" style="--color: var(--primary);">3450 руб.</h2>
+		<div class="landing-block-node-text-9463 g-pb-1 text-center g-font-size-17 g-color g-mb-minus-20" style="--color: hsla(0, 0%, 0%, 1);"><p><span style="text-decoration-line: line-through;">4630 руб.</span></p></div>
+	</div>
+					</div>
+					<div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pt-10 g-pb-30">
+	<a href="Tovar-16.html" class="landing-block-node-button-2495 btn text-uppercase g-btn-primary g-btn-type-solid g-btn-size-md g-ml-10 g-mr-10 g-btn-px-l g-rounded-50" target="_self" style="--button-color-contrast: ;--button-color-hover: ;--button-color-light: ;--button-color: ;--color: ;--color-hover: ;">Записаться</a>
+</div>
+				</div>
+			</div>
+		</div></div>
+	<!-- Product Blocks -->
+</section></div><div id="b279656" class="block-wrapper block-08-4-fix-title-and-text"><section class="landing-block js-animation g-pb-10 g-pt-105 g-bg" style="--bg: #fafafa;">
+	<div class="landing-block-node-container container js-animation" style="">
+		<h2 class="landing-block-node-title landing-semantic-title-medium js-animation fadeIn h1 u-heading-v2__title g-mb-20 g-text-break-word g-brd-primary g-line-height-1_1 g-font-weight-600 g-font-size-30 u-heading-v2-0 text-center text-uppercase" style="">Наша команда</h2>
+		<div class="landing-block-node-text landing-semantic-text-medium js-animation animated text-center g-color g-font-size-5 g-line-height-0_7 g-mb-minus-20" style="--color: hsla(0, 0%, 0%, 1);"><p><br /></p></div>
+	</div>
+</section></div><div id="b279660" class="block-wrapper block-28-4-team-4-cols-hover-slider"><section class="landing-block g-pt-30 g-bg g-pb-80" style="--bg: #fafafa;">
+	<div class="landing-block-slider container" data-slider-slides-show="4" data-slider-arrows="5" data-slider-animation="1">
+		<!-- Carousel -->
+		<section class="js-carousel g-pb-90 row" data-autoplay="false" data-slides-show="4" data-slides-scroll="4" data-arrows-classes="u-arrow-v1 g-pos-abs g-bottom-0 g-width-45 g-height-45 g-transition-0_2 g-transition--ease-in g-color-white g-bg-gray-light-v2 g-bg-primary--hover" data-arrow-left-classes="fa fa-chevron-left g-left-15 g-left-35x--md" data-arrow-right-classes="fa fa-chevron-right g-right-15 g-right-35x--md" data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-20 text-center" data-responsive="[{
+                 &quot;breakpoint&quot;: 1200,
+                 &quot;settings&quot;: {
+                   &quot;slidesToShow&quot;: 4,
+                   &quot;slidesToScroll&quot;: 4
+                 }
+               }, {
+                 &quot;breakpoint&quot;: 992,
+                 &quot;settings&quot;: {
+                   &quot;slidesToShow&quot;: 3,
+                   &quot;slidesToScroll&quot;: 3
+                 }
+               }, {
+                 &quot;breakpoint&quot;: 768,
+                 &quot;settings&quot;: {
+                   &quot;slidesToShow&quot;: 2,
+                   &quot;slidesToScroll&quot;: 2
+                 }
+               }, {
+                 &quot;breakpoint&quot;: 576,
+                 &quot;settings&quot;: {
+                   &quot;slidesToShow&quot;: 1,
+                   &quot;slidesToScroll&quot;: 1
+                 }
+               }]" data-init-classes-exclude="[{
+				 &quot;selector&quot;: &quot;.landing-block-card-member&quot;,
+				 &quot;class&quot;: &quot;col-12 col-sm-4 col-lg-3&quot;
+			   }, {
+				 &quot;selector&quot;: &quot;.js-carousel&quot;,
+				 &quot;class&quot;: &quot;row&quot;
+			   }]"><div class="landing-block-card-member js-slide js-animation fadeInUp g-px-15 landing-card slick-slide slick-current slick-active" style="">
+				<!-- Figure -->
+				<figure class="text-center g-pos-rel">
+					<img class="landing-block-node-member-photo w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-fileid="803" data-fileid2x="805" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/d95/d95b41ac043feb4b7e5d5bd68dce8afc/andriyko-podilnyk-gnUusxxgRm8-unsplash_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/dc6/dc67e027bf68c968de4cce84ce1d85f7/andriyko-podilnyk-gnUusxxgRm8-unsplash_2x.jpg 2x" />
+
+					<figcaption class="landing-block-card-member-container g-mt-0 g-pos-abs g-top-0 g-left-0 d-flex flex-column justify-content-center w-100 h-100 g-bg-primary-opacity-0_9 opacity-0 g-opacity-1--hover g-transition-0_2 g-transition--ease-in g-pointer-events-none" style="">
+						<div class="align-self-center g-pa-20 g-pointer-events-all">
+							<div class="landing-block-node-member-post landing-semantic-text-image-small text-uppercase g-color g-font-size-15 g-font-weight-600 g-mb-minus-10" style="--color: hsla(0, 0%, 100%, 0.8);"><p>Директор</p></div>
+							<h2 class="landing-block-node-member-name landing-semantic-subtitle-image-small text-uppercase g-color-white g-font-weight-600 g-font-size-20 g-mb-5" style="">Энн Мисти</h2>
+							<div class="landing-block-node-member-text landing-semantic-text-image-small g-px-10 g-color g-font-size-15 g-mb-10" style="--color: hsla(0, 0%, 100%, 0.8);"><p>
+									Создатель и творческий вдохновитель</p></div>
+						</div>
+					</figcaption>
+				</figure>
+			</div><div class="landing-block-card-member js-slide js-animation fadeInUp g-px-15 landing-card slick-slide slick-current slick-active" style="">
+				<!-- Figure -->
+				<figure class="text-center g-pos-rel">
+					<img class="landing-block-node-member-photo w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-fileid="807" data-fileid2x="809" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/a68/a685aeb8b8e8be0de0aacabcbaeaca9c/irina-iriser-T9_NHo5d0pc-unsplash_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/7fe/7feb92c89f1dd1f0f7f974bf5e683baf/irina-iriser-T9_NHo5d0pc-unsplash_2x.jpg 2x" />
+
+					<figcaption class="landing-block-card-member-container g-mt-0 g-pos-abs g-top-0 g-left-0 d-flex flex-column justify-content-center w-100 h-100 g-bg-primary-opacity-0_9 opacity-0 g-opacity-1--hover g-transition-0_2 g-transition--ease-in g-pointer-events-none" style="">
+						<div class="align-self-center g-pa-20 g-pointer-events-all">
+							<div class="landing-block-node-member-post landing-semantic-text-image-small text-uppercase g-color g-font-size-15 g-font-weight-600 g-mb-minus-10" style="--color: hsla(0, 0%, 100%, 0.8);"><p>Администратор</p></div>
+							<h2 class="landing-block-node-member-name landing-semantic-subtitle-image-small text-uppercase g-color-white g-font-weight-600 g-font-size-20 g-mb-5" style="">Стейси Найт</h2>
+							<div class="landing-block-node-member-text landing-semantic-text-image-small g-px-10 g-color g-font-size-15 g-mb-10" style="--color: hsla(0, 0%, 100%, 0.8);"><p>
+									Заказывает только качественные товары</p></div>
+						</div>
+					</figcaption>
+				</figure>
+			</div><div class="landing-block-card-member js-slide js-animation fadeInUp g-px-15 landing-card slick-slide slick-current slick-active" style="">
+				<!-- Figure -->
+				<figure class="text-center g-pos-rel">
+					<img class="landing-block-node-member-photo w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-fileid="811" data-fileid2x="813" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/746/746a5ceed67c0e6065e6934424dd7018/mark-farias-xvPPaYBJEZs-unsplash_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/205/205a933e9b19ad96e79734f0c2d66606/mark-farias-xvPPaYBJEZs-unsplash_2x.jpg 2x" />
+
+					<figcaption class="landing-block-card-member-container g-mt-0 g-pos-abs g-top-0 g-left-0 d-flex flex-column justify-content-center w-100 h-100 g-bg-primary-opacity-0_9 opacity-0 g-opacity-1--hover g-transition-0_2 g-transition--ease-in g-pointer-events-none" style="">
+						<div class="align-self-center g-pa-20 g-pointer-events-all">
+							<div class="landing-block-node-member-post landing-semantic-text-image-small text-uppercase g-color g-font-size-15 g-font-weight-600 g-mb-minus-10" style="--color: hsla(0, 0%, 100%, 0.8);"><p>Ветеринар</p></div>
+							<h2 class="landing-block-node-member-name landing-semantic-subtitle-image-small text-uppercase g-color-white g-font-weight-600 g-font-size-20 g-mb-5" style="">Джон Уилсон</h2>
+							<div class="landing-block-node-member-text landing-semantic-text-image-small g-px-10 g-color g-font-size-15 g-mb-10" style="--color: hsla(0, 0%, 100%, 0.8);"><p>
+									Следит за здоровьем ваших питомцев</p></div>
+						</div>
+					</figcaption>
+				</figure>
+			</div><div class="landing-block-card-member js-slide js-animation fadeInUp g-px-15 landing-card slick-slide slick-current slick-active" style="">
+				<!-- Figure -->
+				<figure class="text-center g-pos-rel">
+					<img class="landing-block-node-member-photo w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-fileid="815" data-fileid2x="817" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/d5c/d5c153cebe088f2342f50b8de4f8fb97/raj-rana-15Vb4B_ma_s-unsplash_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/458/458774f772e9da1dafc6c8f94bcd4b2d/raj-rana-15Vb4B_ma_s-unsplash_2x.jpg 2x" />
+
+					<figcaption class="landing-block-card-member-container g-mt-0 g-pos-abs g-top-0 g-left-0 d-flex flex-column justify-content-center w-100 h-100 g-bg-primary-opacity-0_9 opacity-0 g-opacity-1--hover g-transition-0_2 g-transition--ease-in g-pointer-events-none" style="">
+						<div class="align-self-center g-pa-20 g-pointer-events-all">
+							<div class="landing-block-node-member-post landing-semantic-text-image-small text-uppercase g-color g-font-size-15 g-font-weight-600 g-mb-minus-10" style="--color: hsla(0, 0%, 100%, 0.8);"><p>Грумер</p></div>
+							<h2 class="landing-block-node-member-name landing-semantic-subtitle-image-small text-uppercase g-color-white g-font-weight-600 g-font-size-20 g-mb-5" style="">Алиса Пирс</h2>
+							<div class="landing-block-node-member-text landing-semantic-text-image-small g-px-10 g-color g-font-size-15 g-mb-10" style="--color: hsla(0, 0%, 100%, 0.8);"><p>
+									Делает ваших питомцев красивыми</p></div>
+						</div>
+					</figcaption>
+				</figure>
+			</div><div class="landing-block-card-member js-slide js-animation fadeInUp g-px-15 landing-card slick-slide slick-current slick-active" style="">
+				<!-- Figure -->
+				<figure class="text-center g-pos-rel">
+					<img class="landing-block-node-member-photo w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-fileid="819" data-fileid2x="821" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn-ru.bitrix24.ru/b25115744/landing/5b5/5b58d99743a879f927c27f11012d1804/aj-gallagher-epNphIjdF84-unsplash_1x.jpg" loading="lazy" data-srcset="https://cdn-ru.bitrix24.ru/b25115744/landing/58f/58fe4be29cc7b828ac45063e96ba12fd/aj-gallagher-epNphIjdF84-unsplash_2x.jpg 2x" />
+
+					<figcaption class="landing-block-card-member-container g-mt-0 g-pos-abs g-top-0 g-left-0 d-flex flex-column justify-content-center w-100 h-100 g-bg-primary-opacity-0_9 opacity-0 g-opacity-1--hover g-transition-0_2 g-transition--ease-in g-pointer-events-none" style="">
+						<div class="align-self-center g-pa-20 g-pointer-events-all">
+							<div class="landing-block-node-member-post landing-semantic-text-image-small text-uppercase g-color g-font-size-15 g-font-weight-600 g-mb-minus-10" style="--color: hsla(0, 0%, 100%, 0.8);"><p>Менеджер</p></div>
+							<h2 class="landing-block-node-member-name landing-semantic-subtitle-image-small text-uppercase g-color-white g-font-weight-600 g-font-size-20 g-mb-5" style="">Дэвид Найт</h2>
+							<div class="landing-block-node-member-text landing-semantic-text-image-small g-px-10 g-color g-font-size-15 g-mb-10" style="--color: hsla(0, 0%, 100%, 0.8);"><p>
+									Все ваши обращения будут обработаны им</p></div>
+						</div>
+					</figcaption>
+				</figure>
+			</div></section>
+		<!-- End Carousel -->
+	</div>
+</section></div>
+
+	
+	<div id="b279866" class="block-wrapper block-08-4-fix-title-and-text"><section class="landing-block js-animation g-pb-10 g-bg g-pt-65 l-d-md-none l-d-xs-none" style="--bg: var(--primary);">
+	<div class="landing-block-node-container container js-animation" style="">
+		<h2 class="landing-block-node-title landing-semantic-title-medium js-animation fadeIn h1 u-heading-v2__title g-mb-20 g-text-break-word g-brd-primary g-line-height-1_1 g-font-weight-600 g-font-size-30 u-heading-v2-0 text-center text-uppercase g-color" style="--color: #ffffff;">Отзывы</h2>
+		<div class="landing-block-node-text landing-semantic-text-medium js-animation animated text-center g-color g-font-size-5 g-line-height-0_7 g-mb-minus-20" style="--color: hsla(0, 0%, 0%, 1);"><p><br /></p></div>
+	</div>
+</section></div><div id="b279990" class="block-wrapper block-08-4-fix-title-and-text"><section class="landing-block js-animation g-pb-10 g-bg l-d-lg-none g-pt-15" style="--bg: var(--primary);">
+	<div class="landing-block-node-container container js-animation" style="">
+		<h2 class="landing-block-node-title landing-semantic-title-medium js-animation fadeIn h1 u-heading-v2__title g-mb-20 g-text-break-word g-brd-primary g-line-height-1_1 g-font-weight-600 g-font-size-30 u-heading-v2-0 text-center text-uppercase g-color" style="--color: #ffffff;">Отзывы</h2>
+		<div class="landing-block-node-text landing-semantic-text-medium js-animation animated text-center g-color g-font-size-5 g-line-height-0_7 g-mb-minus-20" style="--color: hsla(0, 0%, 0%, 1);"><p><br /></p></div>
+	</div>
+</section></div><div id="b279856" class="block-wrapper block-29-three-cols-texts-blocks-slider"><section class="landing-block js-animation g-pt-30 g-bg g-pb-105 animation-none" style="--bg: var(--primary);">
+
+	<div class="landing-block-slider container" data-slider-autoplay="1" data-slider-autoplay-speed="5000" data-slider-slides-show="3" data-slider-pause-hover="true" data-slider-animation="1">
+
+		<div class="js-carousel g-pb-60 row" data-infinite="true" data-autoplay="true" data-pause-hover="true" data-speed="5000" data-lazy-load="progressive" data-slides-show="3" data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-0 text-center" data-responsive="[{
+                 &quot;breakpoint&quot;: 1200,
+                 &quot;settings&quot;: {
+                   &quot;slidesToShow&quot;: 3
+                 }
+               }, {
+                 &quot;breakpoint&quot;: 992,
+                 &quot;settings&quot;: {
+                   &quot;slidesToShow&quot;: 2
+                 }
+               }, {
+                 &quot;breakpoint&quot;: 768,
+                 &quot;settings&quot;: {
+                   &quot;slidesToShow&quot;: 2
+                 }
+               }, {
+                 &quot;breakpoint&quot;: 576,
+                 &quot;settings&quot;: {
+                   &quot;slidesToShow&quot;: 1
+                 }
+               }]" data-init-classes-exclude="[{
+				 &quot;selector&quot;: &quot;.landing-block-card-slider-element&quot;,
+				 &quot;class&quot;: &quot;col-12 col-sm-6 col-lg-4&quot;
+			   }, {
+				 &quot;selector&quot;: &quot;.js-carousel&quot;,
+				 &quot;class&quot;: &quot;row&quot;
+			   }]"><div class="landing-block-card-slider-element js-slide align-self-center g-px-15 mb-1 landing-card slick-slide" style="">
+				<blockquote class="landing-block-node-element-text u-blockquote-v8 rounded g-pa-25 g-mb-25" style="">Пользуюсь вашими услугами не в первый раз – сервис на высшем уровне: менеджеры приветливые и отзывчивые, качество безукоризненное!</blockquote>
+				<div class="media">
+					<img class="landing-block-node-element-img g-width-50 g-height-50 g-object-fit-cover d-flex align-self-center g-rounded-50x u-shadow-v19 g-brd-around g-brd-3 g-brd-white mr-3" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" style="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/100x100/img1.jpg" loading="lazy" />
+					<div class="media-body align-self-center">
+						<h4 class="landing-block-node-element-title g-mb-0 text-uppercase g-color g-font-size-15" style="--color: #ffffff;">Алекса Миднайт</h4>
+						<div class="landing-block-node-element-subtitle g-font-size-13 g-color" style="--color: #ffffff;">★★★★★</div>
+					</div>
+				</div>
+			</div><div class="landing-block-card-slider-element js-slide align-self-center g-px-15 mb-1 landing-card slick-slide" style="">
+				<blockquote class="landing-block-node-element-text u-blockquote-v8 rounded g-pa-25 g-mb-25" style="">Пользуюсь вашими услугами не в первый раз – сервис на высшем уровне: менеджеры приветливые и отзывчивые, качество безукоризненное!</blockquote>
+				<div class="media">
+					<img class="landing-block-node-element-img g-width-50 g-height-50 g-object-fit-cover d-flex align-self-center g-rounded-50x u-shadow-v19 g-brd-around g-brd-3 g-brd-white mr-3" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" style="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/100x100/img5.jpg" loading="lazy" />
+					<div class="media-body align-self-center">
+						<h4 class="landing-block-node-element-title g-mb-0 text-uppercase g-color g-font-size-15" style="--color: #ffffff;">Джон Тент</h4>
+						<div class="landing-block-node-element-subtitle g-font-size-13 g-color" style="--color: #ffffff;"><span class="d-block">★★★★★</span></div>
+					</div>
+				</div>
+			</div><div class="landing-block-card-slider-element js-slide align-self-center g-px-15 mb-1 landing-card slick-slide" style="">
+				<blockquote class="landing-block-node-element-text u-blockquote-v8 rounded g-pa-25 g-mb-25" style="">Пользуюсь вашими услугами не в первый раз – сервис на высшем уровне: менеджеры приветливые и отзывчивые, качество безукоризненное!</blockquote>
+				<div class="media">
+					<img class="landing-block-node-element-img g-width-50 g-height-50 g-object-fit-cover d-flex align-self-center g-rounded-50x u-shadow-v19 g-brd-around g-brd-3 g-brd-white mr-3" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" style="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/100x100/img2.jpg" loading="lazy" />
+					<div class="media-body align-self-center">
+						<h4 class="landing-block-node-element-title g-mb-0 text-uppercase g-color g-font-size-15" style="--color: #ffffff;">Майкл Майерс</h4>
+						<div class="landing-block-node-element-subtitle g-font-size-13 g-color" style="--color: #ffffff;"><span class="d-block">★★★★★</span></div>
+					</div>
+				</div>
+			</div><div class="landing-block-card-slider-element js-slide align-self-center g-px-15 mb-1 landing-card slick-slide" style="">
+				<blockquote class="landing-block-node-element-text u-blockquote-v8 rounded g-pa-25 g-mb-25" style="">Пользуюсь вашими услугами не в первый раз – сервис на высшем уровне: менеджеры приветливые и отзывчивые, качество безукоризненное!</blockquote>
+				<div class="media">
+					<img class="landing-block-node-element-img g-width-50 g-height-50 g-object-fit-cover d-flex align-self-center g-rounded-50x u-shadow-v19 g-brd-around g-brd-3 g-brd-white mr-3" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" style="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/100x100/img4.jpg" loading="lazy" />
+					<div class="media-body align-self-center">
+						<h4 class="landing-block-node-element-title g-mb-0 text-uppercase g-color g-font-size-15" style="--color: #ffffff;">Марк Смит</h4>
+						<div class="landing-block-node-element-subtitle g-font-size-13 g-color" style="--color: #ffffff;"><span class="d-block">★★★★★</span></div>
+					</div>
+				</div>
+			</div><div class="landing-block-card-slider-element js-slide align-self-center g-px-15 mb-1 landing-card slick-slide" style="">
+				<blockquote class="landing-block-node-element-text u-blockquote-v8 rounded g-pa-25 g-mb-25" style="">Пользуюсь вашими услугами не в первый раз – сервис на высшем уровне: менеджеры приветливые и отзывчивые, качество безукоризненное!</blockquote>
+				<div class="media">
+					<img class="landing-block-node-element-img g-width-50 g-height-50 g-object-fit-cover d-flex align-self-center g-rounded-50x u-shadow-v19 g-brd-around g-brd-3 g-brd-white mr-3" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" style="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/100x100/img3.jpg" loading="lazy" />
+					<div class="media-body align-self-center">
+						<h4 class="landing-block-node-element-title g-mb-0 text-uppercase g-color g-font-size-15" style="--color: #ffffff;">Милдред Пирс</h4>
+						<div class="landing-block-node-element-subtitle g-font-size-13 g-color" style="--color: #ffffff;"><span class="d-block">★★★★★</span></div>
+					</div>
+				</div>
+			</div></div>
+	</div>
+
+</section></div>
+
+
+<div id="b279948" class="block-wrapper block-repo-221"><section class="landing-block js-animation animation-none animated g-pb-auto g-bg" style="--bg: hsla(0, 0%, 0%, 1);">
+	<div class="landing-semantic-text-medium text-center g-color-gray-dark-v3 g-pa-10">
+		<div class="g-width-600 mx-auto">
+			<div class="landing-block-node-text landing-semantic-text-medium js-animation animation-none g-font-size-12 animated g-mb-minus-10 g-color" style="--color: hsla(0, 0%, 100%, 0.8);"><p>© <a href="https://t.me/baltogroom" target="_blank">Balto</a></p></div>
+		</div>
+	</div>
+</section></div>
+</main>
+<script data-skip-moving="true">
+					(function(w,d,u,b){ 'use strict';
+					var s=d.createElement('script');var r=(Date.now()/1000|0);s.async=1;s.src=u+'?'+r;
+					var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+				})(window,document,'https://cdn-ru.bitrix24.ru/b25115744/crm/site_button/loader_1_9j22cq.js');
+				</script>
+				 
+
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script><script type="text/javascript" src="bitrix/js/main/core/core.min.js@1681302296220539"></script><script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+</script>
+<script type="text/javascript">(window.BX||top.BX).message({'pull_server_enabled':'Y','pull_config_timestamp':'1645115399','pull_guest_mode':'N','pull_guest_user_id':'0'});(window.BX||top.BX).message({'PULL_OLD_REVISION':'Для продолжения корректной работы с сайтом необходимо перезагрузить страницу.'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'UI_TAG_SELECTOR_SEARCH_PLACEHOLDER':'поиск','UI_TAG_SELECTOR_ADD_BUTTON_CAPTION':'Добавить','UI_TAG_SELECTOR_ADD_BUTTON_CAPTION_MORE':'Добавить еще','UI_TAG_SELECTOR_ADD_BUTTON_CAPTION_SINGLE':'Изменить','UI_TAG_SELECTOR_CREATE_BUTTON_CAPTION':'Создать','UI_SELECTOR_SEARCH_LOADER_TEXT':'Идет поиск дополнительных результатов...','UI_SELECTOR_SEARCH_TAB_TITLE':'Поиск','UI_SELECTOR_SEARCH_STUB_TITLE':'Нет совпадений','UI_SELECTOR_SEARCH_STUB_SUBTITLE':'Попробуйте изменить условия поиска','UI_SELECTOR_RECENT_TAB_TITLE':'Последние','UI_SELECTOR_ITEM_LINK_TITLE':'подробнее','UI_SELECTOR_TAB_STUB_TITLE':'В категории &laquo;#TAB_TITLE#&raquo; ничего не найдено','UI_SELECTOR_CREATE_ITEM_LABEL':'Создать:'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'CORE_CLIPBOARD_COPY_SUCCESS':'Скопировано','CORE_CLIPBOARD_COPY_FAILURE':'Не удалось скопировать'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'MAIN_SIDEPANEL_CLOSE':'Закрыть','MAIN_SIDEPANEL_PRINT':'Печать','MAIN_SIDEPANEL_NEW_WINDOW':'Открыть в новом окне','MAIN_SIDEPANEL_COPY_LINK':'Скопировать ссылку'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'SOCNET_ENTITY_SELECTOR_INVITE_EMPLOYEE':'Пригласить сотрудника','SOCNET_ENTITY_SELECTOR_INVITE_EXTRANET':'Пригласить внешнего пользователя','SOCNET_ENTITY_SELECTOR_INVITE_EMPLOYEE_OR_EXTRANET':'Пригласить сотрудника или внешнего пользователя','SOCNET_ENTITY_SELECTOR_INVITE_GUEST':'Пригласить гостя','SOCNET_ENTITY_SELECTOR_CREATE_PROJECT':'Создать группу','SOCNET_ENTITY_SELECTOR_INVITE_EMPLOYEE_OR_GUEST':'<employee>Пригласить сотрудника<\/employee><span>или<\/span><guest>пригласить гостя<\/guest>','SOCNET_ENTITY_SELECTOR_EMPLOYEE_OR_PROJECT':'<employee>Пригласить сотрудника<\/employee><span>или<\/span><project>создать группу<\/project>','SOCNET_ENTITY_SELECTOR_PROJECT_OR_GUEST':'<project>Создать группу<\/project><span>или<\/span><guest>пригласить гостя<\/guest>','SOCNET_ENTITY_SELECTOR_EMPLOYEE_OR_PROJECT_OR_GUEST':'<employee>Пригласить сотрудника<\/employee><span>или<\/span><project>создать группу<\/project><span>или<\/span><guest>пригласить гостя<\/guest>','SOCNET_ENTITY_SELECTOR_INVITED_USERS_TAB_TITLE':'Приглашенные','SOCNET_ENTITY_SELECTOR_INVITED_GUEST_HINT':'Вы можете добавить не только сотрудника, но и партнера или клиента по электронной почте.','SOCNET_ENTITY_SELECTOR_TAG_FOOTER_LABEL':'Начните ввод, чтобы создать новый тег'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'TASKS_ENTITY_SELECTOR_TAG_FOOTER_CREATE_NEW':'Начните ввод, чтобы создать новый тег','TASKS_ENTITY_SELECTOR_TAG_FOOTER_CREATE':'Создать новый тег','TASKS_ENTITY_SELECTOR_TAG_FOOTER_OR':'или','TASKS_ENTITY_SELECTOR_TAG_FOOTER_GET_TAG_SLIDER':'Посмотреть теги'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'VOXIMPLANT_ENTITY_SELECTOR_SUPERTITLE':'Группа телефонии'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'AMPM_MODE':false});(window.BX||top.BX).message({'MONTH_1':'Январь','MONTH_2':'Февраль','MONTH_3':'Март','MONTH_4':'Апрель','MONTH_5':'Май','MONTH_6':'Июнь','MONTH_7':'Июль','MONTH_8':'Август','MONTH_9':'Сентябрь','MONTH_10':'Октябрь','MONTH_11':'Ноябрь','MONTH_12':'Декабрь','MONTH_1_S':'января','MONTH_2_S':'февраля','MONTH_3_S':'марта','MONTH_4_S':'апреля','MONTH_5_S':'мая','MONTH_6_S':'июня','MONTH_7_S':'июля','MONTH_8_S':'августа','MONTH_9_S':'сентября','MONTH_10_S':'октября','MONTH_11_S':'ноября','MONTH_12_S':'декабря','MON_1':'янв','MON_2':'фев','MON_3':'мар','MON_4':'апр','MON_5':'май','MON_6':'июн','MON_7':'июл','MON_8':'авг','MON_9':'сен','MON_10':'окт','MON_11':'ноя','MON_12':'дек','DAY_OF_WEEK_0':'Воскресенье','DAY_OF_WEEK_1':'Понедельник','DAY_OF_WEEK_2':'Вторник','DAY_OF_WEEK_3':'Среда','DAY_OF_WEEK_4':'Четверг','DAY_OF_WEEK_5':'Пятница','DAY_OF_WEEK_6':'Суббота','DOW_0':'Вс','DOW_1':'Пн','DOW_2':'Вт','DOW_3':'Ср','DOW_4':'Чт','DOW_5':'Пт','DOW_6':'Сб','FD_SECOND_AGO_0':'#VALUE# секунд назад','FD_SECOND_AGO_1':'#VALUE# секунду назад','FD_SECOND_AGO_10_20':'#VALUE# секунд назад','FD_SECOND_AGO_MOD_1':'#VALUE# секунду назад','FD_SECOND_AGO_MOD_2_4':'#VALUE# секунды назад','FD_SECOND_AGO_MOD_OTHER':'#VALUE# секунд назад','FD_SECOND_DIFF_0':'#VALUE# секунд','FD_SECOND_DIFF_1':'#VALUE# секунда','FD_SECOND_DIFF_10_20':'#VALUE# секунд','FD_SECOND_DIFF_MOD_1':'#VALUE# секунда','FD_SECOND_DIFF_MOD_2_4':'#VALUE# секунды','FD_SECOND_DIFF_MOD_OTHER':'#VALUE# секунд','FD_SECOND_SHORT':'#VALUE#с','FD_MINUTE_AGO_0':'#VALUE# минут назад','FD_MINUTE_AGO_1':'#VALUE# минуту назад','FD_MINUTE_AGO_10_20':'#VALUE# минут назад','FD_MINUTE_AGO_MOD_1':'#VALUE# минуту назад','FD_MINUTE_AGO_MOD_2_4':'#VALUE# минуты назад','FD_MINUTE_AGO_MOD_OTHER':'#VALUE# минут назад','FD_MINUTE_DIFF_0':'#VALUE# минут','FD_MINUTE_DIFF_1':'#VALUE# минута','FD_MINUTE_DIFF_10_20':'#VALUE# минут','FD_MINUTE_DIFF_MOD_1':'#VALUE# минута','FD_MINUTE_DIFF_MOD_2_4':'#VALUE# минуты','FD_MINUTE_DIFF_MOD_OTHER':'#VALUE# минут','FD_MINUTE_0':'#VALUE# минут','FD_MINUTE_1':'#VALUE# минуту','FD_MINUTE_10_20':'#VALUE# минут','FD_MINUTE_MOD_1':'#VALUE# минуту','FD_MINUTE_MOD_2_4':'#VALUE# минуты','FD_MINUTE_MOD_OTHER':'#VALUE# минут','FD_MINUTE_SHORT':'#VALUE#мин','FD_HOUR_AGO_0':'#VALUE# часов назад','FD_HOUR_AGO_1':'#VALUE# час назад','FD_HOUR_AGO_10_20':'#VALUE# часов назад','FD_HOUR_AGO_MOD_1':'#VALUE# час назад','FD_HOUR_AGO_MOD_2_4':'#VALUE# часа назад','FD_HOUR_AGO_MOD_OTHER':'#VALUE# часов назад','FD_HOUR_DIFF_0':'#VALUE# часов','FD_HOUR_DIFF_1':'#VALUE# час','FD_HOUR_DIFF_10_20':'#VALUE# часов','FD_HOUR_DIFF_MOD_1':'#VALUE# час','FD_HOUR_DIFF_MOD_2_4':'#VALUE# часа','FD_HOUR_DIFF_MOD_OTHER':'#VALUE# часов','FD_HOUR_SHORT':'#VALUE#ч','FD_YESTERDAY':'вчера','FD_TODAY':'сегодня','FD_TOMORROW':'завтра','FD_DAY_AGO_0':'#VALUE# дней назад','FD_DAY_AGO_1':'#VALUE# день назад','FD_DAY_AGO_10_20':'#VALUE# дней назад','FD_DAY_AGO_MOD_1':'#VALUE# день назад','FD_DAY_AGO_MOD_2_4':'#VALUE# дня назад','FD_DAY_AGO_MOD_OTHER':'#VALUE# дней назад','FD_DAY_DIFF_0':'#VALUE# дней','FD_DAY_DIFF_1':'#VALUE# день','FD_DAY_DIFF_10_20':'#VALUE# дней','FD_DAY_DIFF_MOD_1':'#VALUE# день','FD_DAY_DIFF_MOD_2_4':'#VALUE# дня','FD_DAY_DIFF_MOD_OTHER':'#VALUE# дней','FD_DAY_AT_TIME':'#DAY# в #TIME#','FD_DAY_SHORT':'#VALUE#д','FD_MONTH_AGO_0':'#VALUE# месяцев назад','FD_MONTH_AGO_1':'#VALUE# месяц назад','FD_MONTH_AGO_10_20':'#VALUE# месяцев назад','FD_MONTH_AGO_MOD_1':'#VALUE# месяц назад','FD_MONTH_AGO_MOD_2_4':'#VALUE# месяца назад','FD_MONTH_AGO_MOD_OTHER':'#VALUE# месяцев назад','FD_MONTH_DIFF_0':'#VALUE# месяцев','FD_MONTH_DIFF_1':'#VALUE# месяц','FD_MONTH_DIFF_10_20':'#VALUE# месяцев','FD_MONTH_DIFF_MOD_1':'#VALUE# месяц','FD_MONTH_DIFF_MOD_2_4':'#VALUE# месяца','FD_MONTH_DIFF_MOD_OTHER':'#VALUE# месяцев','FD_MONTH_SHORT':'#VALUE#мес','FD_YEARS_AGO_0':'#VALUE# лет назад','FD_YEARS_AGO_1':'#VALUE# год назад','FD_YEARS_AGO_10_20':'#VALUE# лет назад','FD_YEARS_AGO_MOD_1':'#VALUE# год назад','FD_YEARS_AGO_MOD_2_4':'#VALUE# года назад','FD_YEARS_AGO_MOD_OTHER':'#VALUE# лет назад','FD_YEARS_DIFF_0':'#VALUE# лет','FD_YEARS_DIFF_1':'#VALUE# год','FD_YEARS_DIFF_10_20':'#VALUE# лет','FD_YEARS_DIFF_MOD_1':'#VALUE# год','FD_YEARS_DIFF_MOD_2_4':'#VALUE# года','FD_YEARS_DIFF_MOD_OTHER':'#VALUE# лет','FD_YEARS_SHORT_0':'#VALUE#л','FD_YEARS_SHORT_1':'#VALUE#г','FD_YEARS_SHORT_10_20':'#VALUE#л','FD_YEARS_SHORT_MOD_1':'#VALUE#г','FD_YEARS_SHORT_MOD_2_4':'#VALUE#г','FD_YEARS_SHORT_MOD_OTHER':'#VALUE#л','CAL_BUTTON':'Выбрать','CAL_TIME_SET':'Установить время','CAL_TIME':'Время','FD_LAST_SEEN_TOMORROW':'завтра в #TIME#','FD_LAST_SEEN_NOW':'только что','FD_LAST_SEEN_TODAY':'сегодня в #TIME#','FD_LAST_SEEN_YESTERDAY':'вчера в #TIME#','FD_LAST_SEEN_MORE_YEAR':'более года назад'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'WEEK_START':'1'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JC_CORE_TREE_SELECT_CONTROL':'Выберите условие','JC_CORE_TREE_ADD_CONTROL':'Добавить условие','JC_CORE_TREE_DELETE_CONTROL':'Удалить условие','JC_CORE_TREE_CONTROL_DATETIME_ICON':'Нажмите для выбора даты','JC_CORE_TREE_CONDITION_ERROR':'Ошибка в условии','JC_CORE_TREE_CONDITION_FATAL_ERROR':'Неустранимая ошибка в условии. Рекомендуется его удалить'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','UTF_MODE':'Y','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1683304676','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'27004056cf93e032562c626355832be1'});</script><script type="text/javascript" src="bitrix/js/ui/dexie/dist/dexie3.bundle.min.js@166202082188295"></script>
+<script type="text/javascript" src="bitrix/js/main/core/core_ls.min.js@14328944187365"></script>
+<script type="text/javascript" src="bitrix/js/main/core/core_fx.min.js@14909536449768"></script>
+<script type="text/javascript" src="bitrix/js/main/core/core_frame_cache.min.js@164923745511264"></script>
+<script type="text/javascript" src="bitrix/js/pull/protobuf/protobuf.min.js@159231549176433"></script>
+<script type="text/javascript" src="bitrix/js/pull/protobuf/model.min.js@159231549114190"></script>
+<script type="text/javascript" src="bitrix/js/rest/client/rest.client.min.js@16015491189240"></script>
+<script type="text/javascript" src="bitrix/js/pull/client/pull.client.min.js@167843116848309"></script>
+<script type="text/javascript" src="bitrix/js/main/popup/dist/main.popup.bundle.min.js@168130228565670"></script>
+<script type="text/javascript" src="bitrix/js/main/loader/dist/loader.bundle.min.js@16128673043969"></script>
+<script type="text/javascript" src="bitrix/js/ui/entity-selector/dist/entity-selector.bundle.min.js@1677767756170785"></script>
+<script type="text/javascript" src="bitrix/js/crm/entity-selector/dist/crm-entity-selector.bundle.min.js@1677073414277"></script>
+<script type="text/javascript" src="bitrix/js/main/pageobject/pageobject.min.js@1584117434570"></script>
+<script type="text/javascript" src="bitrix/js/main/core/core_clipboard.min.js@16572140002246"></script>
+<script type="text/javascript" src="bitrix/js/main/sidepanel/manager.min.js@166798600419517"></script>
+<script type="text/javascript" src="bitrix/js/main/sidepanel/slider.min.js@166798600431250"></script>
+<script type="text/javascript" src="bitrix/js/socialnetwork/entity-selector/dist/sonet-entity-selector.bundle.min.js@16685071419164"></script>
+<script type="text/javascript" src="bitrix/js/tasks/entity-selector/dist/tasks-entity-selector.bundle.min.js@16736070712700"></script>
+<script type="text/javascript" src="bitrix/js/landing/metrika/dist/metrika.bundle.min.js@16239365903054"></script>
+<script type="text/javascript" src="bitrix/js/main/date/main.date.min.js@168130228517992"></script>
+<script type="text/javascript" src="bitrix/js/main/core/core_date.min.js@161286731026661"></script>
+<script type="text/javascript" src="bitrix/js/main/core/core_window.min.js@163974535776326"></script>
+<script type="text/javascript" src="bitrix/js/catalog/core_tree.min.js@165634246245324"></script>
+<script type="text/javascript" src="bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.min.js@15362428577124"></script>
+<script type="text/javascript">if (Intl && Intl.DateTimeFormat) document.cookie="BITRIX_SM_TZ="+Intl.DateTimeFormat().resolvedOptions().timeZone+"; path=/; expires=Wed, 01 May 2024 00:00:00 +0300";</script>
+<script>
+	(function(w,d,u){
+		var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/86400000|0);
+		var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+	})(window,document,'https://cdn-ru.bitrix24.ru/b25115744/landing/assets/assets_webpack_610f7766ba_1683300732.js');
+</script>
+
+
+
+<script type="text/javascript" src="bitrix/templates/landing24/assets/vendor/jquery/jquery_landing.min.js@166385260095077"></script>
+<script type="text/javascript" src="bitrix/templates/landing24/assets/vendor/jquery.easing/js/jquery.easing_landing.min.js@16589331053591"></script>
+<script type="text/javascript" src="bitrix/templates/landing24/assets/js/helpers/lazyload.min.js@16770006392181"></script>
+<script type="text/javascript" src="bitrix/components/bitrix/landing.pub/templates/.default/script.min.js@16818265128050"></script>
+<script type="text/javascript" src="https://fastcloudstorage.info/site_external_files/11e/11e9e11770a98dc86fb9c871252d4134/05db6c89102d7ee034d267302e72a08e.js"></script>
+<script type="text/javascript" src="https://fastcloudstorage.info/site_external_files/c66/c669949a32b52f0d44fd0b690fca0f8a/ba2fe45f4ca69187b1af571fe4f68fd2.js"></script>
+<script type="text/javascript" src="https://fastcloudstorage.info/site_external_files/4e0/4e060188d163f440e4d867ae71e5bbd7/97edf631c2edee6842e51ad9e928001a.js"></script>
+<script type="text/javascript" src="https://fastcloudstorage.info/site_external_files/6ad/6ad9c62bfc6330529edc8c7a2661b25c/4cf0445ab58ed81c52963b02d7949e67.js"></script>
+<script type="text/javascript" src="https://fastcloudstorage.info/site_external_files/d80/d80d903c7c9372f60f8ca6d0fb7519e3/760da5824618b4d1aa8c790c05d06992.js"></script>
+<script type="text/javascript" src="https://fastcloudstorage.info/site_external_files/472/472e334a98f250648dcae875ae745b01/b2ea4e1564a0c5889785123b3c3a1875.js"></script>
+<script>
+	BX.namespace("BX.Landing");
+	BX.Landing.getMode = () => "view";
+</script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "bc2cad9153cb418bb2dfd5602c3c3754"]); _ba.push(["host", "b24-26oied.bitrix24.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+<script>
+	(function()
+	{
+		new BX.Landing.Metrika();
+	})();
+</script>
+
+<script>
+	BX.ready(function() {
+		void new BX.Landing.Pub.PageTransition();
+	});
+</script>
+
+<script>
+
+</script>
+</body>
+</html>
